@@ -1,0 +1,23 @@
+clear all
+cd('Z:\Publications\EntanglementEntropyPaper\data_analysis\HOM_Final')
+data=csvread('RawData.csv');
+fitparms = csvread('FitParamsWError.csv');
+expvar = csvread('ExpVar.csv');
+% data(1,:)=[]
+% expvar(:,1)=[];
+size(data(:,1),2)
+%1/2(A+B Cos(f t + phi)
+theory = 0:0.001:0.8;
+ttheoryscaled = fitparms(3)*theory/(2*pi);
+theory_p11 = 0.5*(fitparms(1)+fitparms(2)*cos(8*pi*ttheoryscaled));
+texpscaled = (fitparms(3)*expvar + fitparms(4))/(8*pi);
+texpscaled(1) = 0;
+
+make_nice_plot_linear(texpscaled',...
+                data(:,1),...
+                abs(data(:,2)),...
+                abs(data(:,3)),...
+                ttheoryscaled,...
+                theory_p11,...
+                'dummy','P(1,1)',1,...
+                'S_{1}+S_{234}-S_{1234}','S_{2}+S_{134}-S_{1234}') 
