@@ -13,3 +13,5 @@ I=reshape(I,[1024 768]);
 figure(1)
 imshow(I)
 
+map=[237/256, 28/256, 36/256; 1, 1, 1; ]
+colormap(map)
