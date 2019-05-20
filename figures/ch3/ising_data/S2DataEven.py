@@ -47,17 +47,23 @@ S2N6Data = np.genfromtxt('6SiteData/S2Data_N6.csv', delimiter = ',')
 S2N7Thry = np.genfromtxt('7SiteData/S2_Thry_N7.csv', delimiter = ',')
 S2N7Data = np.genfromtxt('7SiteData/S2Data_N7.csv', delimiter = ',')
 
-
 S2N8Thry = np.genfromtxt('8SiteData/S2_Thry_N8.csv', delimiter = ',')
 S2N8Data = np.genfromtxt('8SiteData/S2Data_N8.csv', delimiter = ',')
 #QWThryNN = np.genfromtxt('data/QSThry_Jall_BlochOsc.csv', delimiter = ',')
+
+s2ind=2
+s2thind=270
+S2PkVal=[S2N4Data[s2ind,1],S2N5Data[s2ind,1],S2N6Data[s2ind,1],S2N7Data[s2ind,1],S2N8Data[s2ind,1]]
+S2PkThry=[S2N4Thry[s2thind,1],S2N5Thry[s2thind,1],S2N6Thry[s2thind,1],S2N7Thry[s2thind,1],S2N8Thry[s2thind,1]]
+S2PkMerr=[S2N4Data[s2ind,2],S2N5Data[s2ind,2],S2N6Data[s2ind,2],S2N7Data[s2ind,2],S2N8Data[s2ind,2]]
+S2PkPerr=[S2N4Data[s2ind,3],S2N5Data[s2ind,3],S2N6Data[s2ind,3],S2N7Data[s2ind,3],S2N8Data[s2ind,3]]
 
 Er=1.24
 
 lw=2.5
 mksz=5
    
-FX=6.5*2/3
+FX=6.5*2/3*3
 FY=FX/2
 fig = plt.figure(figsize=(FX,FY))
 
@@ -102,6 +108,13 @@ ax1.grid(True, which="both", ls="-")
 
 #
 ax2 = fig.add_subplot(122, aspect='auto')
+ls=[4,5,6,7,8]
+ax2.errorbar(ls,S2PkVal[::],yerr=S2PkPerr[::], fmt='o',\
+             markersize=mksz, linewidth = lw, zorder = 80, label = 'Data', color = matica97C)
+ax2.plot(ls,S2PkVal[::],'o', color='white', markersize=2, zorder = 81 )
+ax2.plot(ls,S2PkThry[::])
+ax2.set_xlim([3,9])
+ax2.set_ylim([0,1])
 #
 #ax2.errorbar(S2N5Data[::,0],S2N5Data[::,1],yerr=S2N5Data[:,2], fmt='o',\
 #             markersize=mksz, linewidth = lw, zorder = 50, label = 'Data', color = matica97E)

@@ -182,4 +182,4 @@ ax4.set_ylabel('NeelOrder or S_2')
 ax4.grid(True, which="both", ls="-")
 
 
-plt.savefig('IsingFig1.pdf')
+plt.savefig('IsingFigN4.pdf')
