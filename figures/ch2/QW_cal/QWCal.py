@@ -45,8 +45,8 @@ Er=1.24
 lw=2.5
 mksz=5
    
-FX=6.5*2/3
-FY=FX/2
+FX=6.5*1/3
+FY=FX/1.5
 fig = plt.figure(figsize=(FX,FY))
 
 ax1 = fig.add_subplot(111, aspect='auto')
