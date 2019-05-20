@@ -1,0 +1,154 @@
+%!TEX root = ../dissertation.tex
+
+%\begin{savequote}[75mm]
+%
+%\qauthor{someone}
+%\end{savequote}
+
+
+\chapter{Chapter 4 Calculations}
+\label{appendix:Ch4Cal}
+
+\newcommand{\Renyi}{R\'{e}nyi\hspace{1mm}}
+\newcommand{\tr}[1]{{\rm{Tr}}{#1}}
+
+\newcommand{\ev}[1]{\left\langle #1\right\rangle}
+\newcommand{\bra}[1]{\left\langle #1\right|}
+\newcommand{\ket}[1]{\left|#1\right\rangle}
+\newcommand{\mat}[2]{\ket{#1}\bra{#2}}
+\newcommand{\braket}[2]{\left\langle #1\left|#2\right.\right\rangle}
+
+\newpage{}
+
+\section{Predictions from thermodynamic ensembles}
+ETH implies an equivalence between the local expectation values of a quenched many-body state and those of the thermal density matrix with the same average total energy as the many-body state. 
+For the reported experiments, our system is initialized into the ground
+state, $\ket{\psi_0}$, of an initial Hamiltonian, $\mathcal H_0$, in the
+atomic limit. At $t = 0$, we quench the system into a Hamiltonian, $\mathcal
+H_q$, after which the system is allowed to evolve for a variable amount of
+time. Comparing to the data at longs times ($10-20~\mathrm{ms}$, where we observe saturation), we can
+compute predictions for the expectation values of various local observables
+based upon different thermodynamic ensembles. These predictions are computed using the following procedures.
+ 
+
+\subsection{Microcanonical Ensemble}
+The microcanonical ensemble is an equal probability statistical mixture of all
+the eigenstates that lie within an energy interval given by the initial state
+$\ket{\psi_0}$.
+%The microcanonical ensemble is assembled by assigning equal probability to all
+%the eigenstates within an energy range given by the initial state
+%$\ket{\psi_0}$. 
+In the quenched Hamiltonian, the initial state has an energy
+\[E^{(0)} \equiv \bra{\psi_0} \mathcal H_q \ket{\psi_0}\]
+while the eigenstates of $\mathcal H_q$, $\ket{\phi^{(q)}_i}$, have energies
+$E_i^{(q)}$. The microcanonical ensemble is then composed of the $N_\text{MC}$
+number of eigenstates for which ${|E_i^{(q)} - E^{(0)}| < \delta E}$. For our numerical
+data, we have chosen $\delta E = 0.2 J$, but the ensemble predictions are insensitive to the precise value of $\delta E$. The microcanonical ensemble can be represented by the
+thermal density matrix
+\[\rho_{ij}^{MC} = 
+    \begin{cases} 
+        \frac1{N_\text{MC}}, & \text{if $i = j$ and $|E_i^{(q)} - E^{(0)}| < \delta E$} \\
+        0, & \text{else}
+    \end{cases}.\]
+%With this thermal density matrix, the expectation values of a general
+%observable, $\mathcal A$, can be computed as
+%\[\ev{\mathcal A}_\text{MC} = \Tr(\mathcal A \rho^{MC}).\]
+
+\subsection{Canonical Ensemble}
+\label{sec:canonical}
+The canonical ensemble is a statistical mixture of all the eigenstates in the
+system weighted by each state's Boltzmann factor, $\exp(-E_i^{(q)}/k_BT)$. The
+temperature in the Boltzmann factor is fixed through the stipulation that the
+average energy of this thermal ensemble matches the energy of the initial state,
+i.e. we choose $T$ such that
+\[\mathrm{Tr}(\mathcal H_q \rho^{CE}) = \bra{\psi_0} \mathcal H_q \ket{\psi_0},\]
+where the thermal density matrix $\rho^{CE}$ has the following construction,
+\[\rho_{ij}^{CE} = 
+    \begin{cases} 
+        e^{-\frac{E_i^{(q)}}{k_B T}}, & \text{if $i = j$} \\
+        0, & \text{else}
+    \end{cases}.\]
+%Expectations of a general observable, $\mathcal A$, can then be obtained in an
+%identical fashion to that of the microcanonical ensemble,
+%\[\ev{\mathcal A}_\text{CE} = \Tr(\mathcal A \rho^{CE}).\]
+
+\subsection{Single Eigenstate Ensemble}
+Energy eigenstates of systems conforming to ETH are surmised to appear thermal in local observables. We numerically calculate the eigenstates of the quenched Hamiltonian and compare the experimentally observed local counting statistics to the prediction from the single full system eigenstate $\ket{\phi^{(q)}_i}$ that is closest in energy to the expectation value $E^{(0)}$. The expectation value in this case is given by,
+\[\ev{\mathcal A}_\text{SE} = \bra{\phi^{(q)}_i} \mathcal A \ket{\phi^{(q)}_i} .\]
+
+\subsection{Diagonal Ensemble}
+The diagonal ensemble is a statistical mixture of all eigenstates of the full Hamiltonian $\mathcal H_q$, with the weights given by their amplitudes after quench.
+\[
+\rho_{ij}^{D}=
+\begin{cases}
+	|\braket{\psi_0}{\phi^{(q)}_i}|^2 , & \text{if $i=j$.} \\
+	0, & \text{else}
+\end{cases}
+\]
+It carries all information about the amplitudes of the eigenstates but ignores all their relative phases.
+%Expectation value of the observable $\mathcal{A}$ is given by,
+%
+%\[\ev{\mathcal A}_\text{D} = \Tr(\mathcal A \rho^{D}).\]
+
+\subsection{Grand Canonical Ensemble}
+
+The grand-canonical ensemble requires calculating the temperature and chemical potential for the subsystem associated to the observable of interest. For example, the top (bottom) row of FIG. 6C pertains to the subsystem consisting of the third site (the first three sites) of the chain. We calculate the temperature and chemical potential for the subsystem as follows. Because the energy and particle number within the subsystem are not conserved during the quench dynamics, we must compute the average energy $\langle E_A \rangle$ and average number $\langle N_A \rangle$ within the subsystem numerically. We time-evolve the full many-body state to the thermalized regime, then compute the reduced density matrix for the subsystem, with which we can calculate $\langle N_A \rangle$  and $\langle E_A \rangle$. %By tracing out the remaining system, this reduced density matrix $\rho_A$ of the subsystem is block-diagonal in total particle number. We can compute, 
+%\begin{equation}
+%\label{avgN}
+%\langle N_A \rangle = \mathrm{Tr}\left(N_A\rho_A \right),
+%\end{equation}
+%with,
+%\begin{equation}
+%N_A = \sum_{i \int A} n_i, 
+%\end{equation}
+%where $n_i$ is the number operator on site $i$. We calculate $\langle E_A \rangle$ in a similar fashion. Since $\rho_A$ is block diagonal in total particle number (i.e. it commutes with $N_A$), we can calculate the average energy within each particle number sector. We compute $H_A^N$, corresponding to the Bose-Hubbard Hamiltonian for the subsystem with $N$ particles, for $N=0$ to $N=6$. We also calculate from $\rho_A$ the matrix $\rho_A^N$, which is the reduced density matrix for the $N^{\mathrm{th}}$ particle sector of the subsystem (which is not renormalized). With these in hand, we can calculate the average energy, 
+%\begin{equation}
+%\label{avgE}
+%\langle E_A \rangle = \sum_{n=0}^6 \mathrm{Tr}\left(H_A^n \rho_A^n \right).
+%\end{equation}
+We note that the average energy of nearly all the subsystems is very close to that of the full system (zero), while the average number is nearly consistent with unity particle density. For the single site subsystems, however, there is no tunneling term to offset the interaction energy, and therefore these subsystems have non-zero energy. We perform this full calculation to account for finite-size effects that cause small temporal energy and number fluctuations. If we neglect the energy fluctuations, the grand-canonical predictions (described below) are negligibly different. 
+
+After the above calculations, we can compute the chemical potential and temperature. Using each $H_A^N$, the subsystem Bose-Hubbard Hamiltonian with $N$ particles, we compute the eigenstates ($\vert E^{N,i}_A \rangle$, where $i$ indexes the eigenstate) and energies ($E^{N,i}_A$) for each particle sector. We seek $T$ and $\mu$ such that, 
+\[
+\langle N_A \rangle = \langle N_{\mathrm{GCE}} \rangle = \frac{1}{Z}\sum_{i,N} N e^{-(E^{N,i}_A-\mu N)/k_B T}
+\]
+and, 
+\[
+\langle E_A \rangle = \langle E_{\mathrm{GCE}} \rangle = \frac{1}{Z} \sum_{i,N} E^{N,i}_A e^{-(E^{N,i}_A-\mu N)/k_B T},
+\]
+where for each particle number $N$, the index $i$ is summed over all eigenstates within that number sector. The partition function, $Z$, is the overall normalization. These equations are numerically solved to find $\mu$ and $T$. With these in hand, we arrive at the grand-canonical ensemble, 
+\[
+\rho_{\mathrm{GCE}} = \frac{1}{Z}\sum_{i,N} \vert E^{N,i}_A \rangle \langle E^{N,i}_A \vert e^{-(E^{N,i}_A-\mu N)/k_B T}.
+\]
+%with which we can calculate the thermal expectation value of an observable $\mathcal A$ in the usual way, 
+%\begin{equation}
+%\langle \mathcal A \rangle = \mathrm{Tr} (\mathcal A \rho_{\mathrm{GCE}}).
+%\end{equation}
+
+
+\subsection{Observables}
+
+For all statistical ensembles above, expectation values of an observable $\mathcal A$ are calculated from the density matrix as 
+\[
+\langle \mathcal A \rangle = \mathrm{Tr} (\mathcal A \rho),
+\]
+where $\rho$ is the full system density matrix corresponding to the appropriate ensemble.
+\section{Entropies}
+
+\subsection{\Renyi Entropy}
+
+All entanglement entropy values discussed in the main text are defined as a function of the reduced density matrix of the subsystem. This applies also for the thermal entropies quoted in the main text, where we use the reduced density matrix of the canonical ensemble described above. The entropy metric used for comparison between the quantum system we measure and the canonical thermal ensemble is the \Renyi entropy. In general, the n-th order \Renyi entropy is defined for a reduced density matrix of subsystem A as
+\[
+S_{n}(\rho_{A})=\frac{1}{1-n}\log{(\mathrm{Tr}[\rho_{A}^n])},
+\]
+where the reduced density matrix $\rho_{A}$ is defined by tracing out all degrees of freedom of the system that do not include subsystem A
+\[
+\rho_{A}=\mathrm{Tr}_{B} (\rho_{AB}).
+\]
+Experimentally, we interfere two identical quantum states to obtain simultaneously the global and local purity ($\mathrm{Tr}(\rho_{A}^2)$). Therefore the relevant order \Renyi entropy is the second-order ($n=2$) \Renyi entropy which is defined for a density matrix of subsystem as
+\[
+S_{2}(\rho_{A})=-\log{(\mathrm{Tr}[\rho_{A}^2])},
+\]
+and is also important qualitatively as a lower bound of the von Neumann entropy.  When discussing the global purity as an entropy, we use the \Renyi formulation in terms of the global density matrix $\rho$ as opposed to a reduced density matrix $\rho_A$. Lastly, note that we use logarithms to base $e$ throughout. 
+
+It is important to stress that the thermodynamic relations defined from statistical mechanics with the von Neumann definition do not directly apply for the \Renyi definition. However, both quantities measure the incoherent diffusion in Hilbert space associated with entropy, and the \Renyi entropy is directly accessible by our measurements.  

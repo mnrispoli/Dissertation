@@ -1,17 +1,147 @@
 %!TEX root = ../dissertation.tex
 
-\begin{savequote}[75mm]
-
-\qauthor{someone}
-\end{savequote}
+%\begin{savequote}[75mm]
+%If there could only be one atomic physics experiment... it should be this one.
+%\qauthor{Professor Jonathan Simon}
+%\end{savequote}
 
 
 \chapter{Chapter 2 Calculations}
 \label{appendix:Ch2Cal}
 
-Calculations for fresnel coefficients versus angle
+\newpage{}
 
-Calculations for Disorder and zero-point energy
+\section{\emph{Z}-lattices from angled reflection}
 
-Calculations for heating rates
+\subsection{Fresnel coefficients}
 
+The fresnel coefficients for illumination of a surface from a medium of refractive index $n_1$ to a surface of refractive index $n_2$. They are defined in intensity as a function of illumination angle $\theta$ by: 
+
+\begin{equation}
+\label{eqn:Rs}
+R_s = \left | \frac{n_1\cos(\theta) - n_2 \sqrt{1-\left ( \frac{n_1}{n_2} \sin ( \theta) \right )^2}}{n_1 \cos(\theta) + n_2 \sqrt{1-\left ( \frac{n_1}{n_2} \sin(\theta) \right )^2}} \right |^2
+\end{equation}
+
+\begin{equation}
+\label{eqn:Rp}
+R_p = \left | \frac{n_1 \sqrt{1-\left ( \frac{n_1}{n_2} \sin ( \theta) \right )^2}-n_2 \cos (\theta)}{n_1 \sqrt{1-\left ( \frac{n_1}{n_2} \sin(\theta) \right )^2}+n_2 \cos(\theta)} \right |^2
+\end{equation}
+
+where the subscripts ``s" and ``p" refer to the typical linear polarizations of light, $n_1=1$ for vacuum, and $n_2\approx 1.45$ for fused silica. 
+
+\subsection{Lattice spacing, contrast, and offset}
+
+Interfering two lasers at a given angle $\theta$ and the wavelength $\lambda$ the resultant lattice constant is $a=\frac{\lambda}{2 \sin (\theta)}$. The angle $\theta$ refers to the half-angle between the two lasers. For the $x,y$-lattices, the lattice wavelength is $\lambda\approx 758$ nm from a $3$ nm broad light source $\theta \approx 34^\circ$.
+
+We can use the reflection coefficients from above to determine the lattice parameters for both of the $z$-lattices. The ``axial" lattice has a relatively steep angle of incidence with respect to the substrate  ($\approx 75.6^\circ$). This produces a lattice with a lattice constant $a\approx 1.5 \mathrm{\mu m}$. This gives rise to a recoil energy $\mathrm{E_r}^{axial} \approx 2\pi \times 255 \mathrm{Hz}$. The lattice contrast is determined by the intensity reflectivity $R_s (\theta)$ by $\left ( \frac{2 \sqrt{R_s}}{1 + R_s}\right )$. In the ``axial" configuration this contrast is $\approx 0.9$. The lack of reflectivity additionally gives rise to a DC offset in the light potential at the nodes of the lattice which is determined by the minimum value in the potential versus the max-min depth of the lattice $\left ( \frac{1-2\sqrt{R_s}+R_s}{4 \sqrt{R_s}}\right )$.  For the ``axial" configuration, this offset is $\approx 0.056 \times V_o^{axial}$ where $V_o^{axial}$ is the depth of the lattice in $\mathrm{E_r}^{axial}$.
+
+If we follow the same analysis for the ``big" lattice configuration, we will find that the steeper angle of incidence ($\approx 88^\circ$) gives rise to the following lattice parameters: lattice constant $a \approx 9.2 \mathrm{\mu m}$, recoil energy $\mathrm{E_r}^{big}\approx 2\pi \times 7 \mathrm{Hz}$, contrast of $\approx 0.997$, and a DC offset of $\approx 0.002 \times V_o^{big}$.
+
+
+
+\section{Calculations for Disorder and zero-point energy}
+
+A simple model for estimating the disorder in a Bose-Hubbard system, the difference in the on-site potential energy change due to scatterers along the optical path can be estimated from the contrast imbalance due to loss from the scatterer. So the estimate for the ground state energy change comes from the energy felt by the atom due to two counter-propagating beams:
+
+\[
+|V_1|^2 = \frac{1}{4} \left ( \frac{V_o}{E_r} \right ) E_r
+\]
+
+\[
+|V_2|^2 = \frac{1}{4} \left ( 1+  \epsilon \right ) \left ( \frac{V_o}{E_r} \right ) E_r
+\]
+
+We can find the lattice potential $V(x) \sim \left ( V_1^* + V_2^* \right ) \left ( V_1 + V_2 \right )$ for a red detuned lattice: \footnote{We have assumed a phase of zero at x=0 for these beams since the fields are written as just the square root of the intensity assumed earlier.} 
+
+\begin{equation}
+\begin{aligned}
+V^{(red)}(x,\epsilon) &= - \frac{1}{4} \frac{V_o}{E_r} E_r  \left ( e^{-i k_l x} + \sqrt{(1+\epsilon)} e^{i k_l x} \right ) \left ( e^{i k_l x} + \sqrt{(1+\epsilon)} e^{-i k_l x} \right ) \\
+& =  - \frac{1}{4} \frac{V_o}{E_r} E_r \left ( 2+\epsilon + \sqrt{(1+\epsilon)} \left ( e^{- i 2 k_l x}+e^{i 2 k_l x} \right ) \right ) \\
+& = -\frac{1}{4} \frac{V_o}{E_r} E_r \left ( 2+ \epsilon + \sqrt{(1+\epsilon)} \left ( 2 \cos(2 k_l x)  \right ) \right )
+\end{aligned}
+\end{equation}
+%
+%\[
+%V^{(red)}(x,\epsilon) = - \frac{1}{4} \frac{V_o}{E_r} E_r  \left ( e^{-i k_l x} + \sqrt{(1+\epsilon)} e^{i k_l x} \right ) \left ( e^{i k_l x} + \sqrt{(1+\epsilon)} e^{-i k_l x} \right )
+%\]
+%
+%\[
+%V^{(red)}(x,\epsilon) = - \frac{1}{4} \frac{V_o}{E_r} E_r \left ( 2+\epsilon + \sqrt{(1+\epsilon)} \left ( e^{- i 2 k_l x}+e^{i 2 k_l x} \right ) \right ) 
+%\]
+%
+%\[
+%V^{(red)}(x,\epsilon) = -\frac{1}{4} \frac{V_o}{E_r} E_r \left ( 2+ \epsilon + \sqrt{(1+\epsilon)} \left ( 2 \cos(2 k_l x)  \right ) \right )
+%\]
+
+expand the $\cos(2 k_l x)$ about $x=0$ for both the red- and blue-detuned cases: \footnote{This takes care of the DC offset from either sitting at the nodes or anti-nodes of the optical lattice.}
+
+\begin{equation}
+V^{(red)}(x,\epsilon) = -\frac{1}{4} \frac{V_o}{E_r} E_r \left ( 2+ \epsilon + 2 \sqrt{(1+\epsilon)} \left ( 1 - \frac{(2 k_l x)^2}{2!} \right )  \right ) = V_{off} (\epsilon) + V_{HO}(x,\epsilon)
+\end{equation}
+
+\begin{equation}
+V^{(blue)}(x,\epsilon) = \frac{1}{4} \frac{V_o}{E_r} E_r \left ( 2+ \epsilon - 2 \sqrt{(1+\epsilon)} \left ( 1 - \frac{(2 k_l x)^2}{2!} \right )  \right ) = V_{off} (\epsilon) + V_{HO}(x,\epsilon)
+\end{equation}
+
+Let us now evaluate the total offset (including the ground state energy shift from the harmonic oscillator) found as a function of $\epsilon$ for the red-detuned case:
+
+\[
+V_{off} ^{(red)}(\epsilon) = - \frac{1}{4} \frac{V_o}{E_r} E_r \left ( 2 + \epsilon + 2 \sqrt{(1+\epsilon)} \right )
+\]
+
+
+\[
+V_{HO}^{(red)}(x,\epsilon) = - \frac{V_o}{E_r}E_r ( 2 \sqrt{(1+\epsilon)}) \frac{(k_l x)^2}{2} = \frac{1}{2} m \omega_{red}^2 x^2
+\]
+
+\[
+\hbar^2 \omega_{red}^2 = - 4 \frac{V_o}{E_r} E_r  \sqrt{(1+\epsilon)} \frac{\hbar^2 k_l^2}{2 m}
+\]
+
+\[
+E_o^{(red)} = \frac{1}{2}\hbar \omega_{red} = 2 E_r \sqrt{\frac{V_o}{E_r}} (1+\epsilon)^{1/4}
+\]
+
+\begin{equation}
+E_g^{(red)} (\epsilon, V_o) = V_{off}^{(red)} + E_o^{(red)} = E_r \left [ - \frac{(2+\epsilon+2\sqrt{1+\epsilon})}{4} \left( \frac{V_o}{E_r} \right ) + 2 \sqrt{\frac{V_o}{E_r}}(1+\epsilon)^{1/4} \right ]
+\label{eqn:red}
+\end{equation}
+
+
+This can be modified easily for the blue-detuned case without much extra math:
+
+\[
+V_{off} ^{(blue)}(\epsilon) = \frac{1}{4} \frac{V_o}{E_r} E_r \left ( 2 + \epsilon - 2 \sqrt{(1+\epsilon)} \right )
+\]
+
+\begin{equation}
+E_g^{(blue)} (\epsilon, V_o) = V_{off}^{(red)} + E_o^{(red)} = E_r \left [ \frac{(2+\epsilon-2\sqrt{1+\epsilon})}{4} \left( \frac{V_o}{E_r} \right ) + 2 \sqrt{\frac{V_o}{E_r}}(1+\epsilon)^{1/4} \right ]
+\label{eqn:red}
+\end{equation}
+
+However, considering that the deviation in local contrast due to deflected beam power is often quite small from site-to-site, we can take the approximation of small $\epsilon$:
+
+\begin{equation}
+E_g^{(red)}(\epsilon, V_o) \approx  E_r \left [ - \left (1+\frac{1}{2}\epsilon \right) \left ( \frac{V_o}{E_r} \right ) + 2 \sqrt{\frac{V_o}{E_r}}\left (1+\frac{1}{4}\epsilon \right ) \right ]
+\end{equation}
+
+\begin{equation}
+E_g^{(blue)}(\epsilon, V_o) \approx  E_r \left [2 \sqrt{\frac{V_o}{E_r}}\left (1+\frac{1}{4}\epsilon \right ) \right ]
+\end{equation}
+
+By taking the derivative of the ground-state energies as a function of $\epsilon$ we can approximate the effective site-to-site change in ground-state energy due to local beam power deviation. This will allow us to compare the approximate site-to-site variation in the lattice detuning configurations as a function of lattice depth:
+
+\begin{equation}
+\frac{d}{d \epsilon}E_g^{(red)}(\epsilon, V_o) = \frac{E_r}{2} \left [ - \left ( \frac{V_o}{E_r} \right ) + \sqrt{\frac{V_o}{E_r}} \right ]
+\end{equation}
+
+\begin{equation}
+\frac{d}{d \epsilon}E_g^{(blue)}(\epsilon, V_o) = \frac{E_r}{2} \left [ \sqrt{\frac{V_o}{E_r}} \right ]
+\end{equation}
+
+
+By taking the ratio of these two susceptibilities to beam-power deviation, we find that for almost all lattice depths ($V_o/E_r >1$) are less susceptible in the blue-detuned lattice by the ratio given below:
+
+\[
+\frac{1}{1-\sqrt{V_o/E_r}}
+\]

@@ -1,13 +1,17 @@
 %!TEX root = ../dissertation.tex
 
-\begin{savequote}[75mm]
-
-\qauthor{someone}
-\end{savequote}
+%\begin{savequote}[75mm]
+%
+%\qauthor{someone}
+%\end{savequote}
 
 
 \chapter{Chapter 1 Calculations}
 \label{appendix:Ch1Cal}
+
+\newpage{}
+
+\section{Optical lattice potential from laser light}
 
 Starting from two propagating plane waves, we can find the shape of the potential that is proportional to the intensity:
 
@@ -15,20 +19,44 @@ Starting from two propagating plane waves, we can find the shape of the potentia
 V_{Latt} \propto |e^{i (k_l x - \omega t) } + e^{i (k_l x + \omega t)}|^2 \propto  \cos^2{\left ( k_l x \right ) } \propto \cos{\left ( 2 k_l x \right ) }
 \end{equation}
 
-Note, that we have left the potential as a function of the laser wavevector. This is important for the definition of the ``recoil energy" of the lattice. To simplify calculations, we subtract off the mean energy of the lattice such that it has an amplitude $V_o$ which we define as the lattice depth. 
+Note, that we have left the potential as a function of the laser wavevector. This is important for the definition of the ``recoil energy" of the lattice photons $\left ( E_r = \frac{\hbar^2 k_l^2}{2 m} \right )$. The $k_l$ defines the wavevector of the light projected into the plane of the lattice $(k_l = \frac{2 \pi}{\lambda} \sin(\theta) )$ where $\theta$ is the angle away from the normal vector to the plane. In a retro-reflecting lattice setup this is simply the bare photon wavevector $k_l=\frac{2\pi}{\lambda}$. To simplify calculations, we subtract off the mean energy of the lattice such that it has an amplitude $V_o$ which we define as the lattice depth.
 
 \begin{equation}
-V_{Latt} = \frac{-Vo}{2} \cos{\left ( 2 k_l x \right ) }
+V_{Latt} = \frac{-V_o}{2} \cos{\left ( 2 k_l x \right ) } 
 \end{equation}
 
+\section{Harmonic Oscillator Approximation}
 
+In the deep lattice (or ``tight-binding") regime, the optical lattice can be approximated on-site as a harmonic potential:
 
-Band Structure Calculation (more explicit)
+\begin{equation}
+V_{Latt} = \frac{-V_o}{2} \cos{\left ( 2 k_l x \right ) } \approx \frac{-Vo}{2}  \left ( 1 - \frac{ \left ( 2 k_l x \right )^2 }{2!} \right )
+\end{equation}
 
-Wannier functions and fourier components
+By finding the on-site trap frequency $\omega$, we can then construct the harmonic oscillator solutions shown in \S \ref{sec:ch1HO}.
 
-Approximations for gaps for shallow lattice and deep lattices
+\[
+-V_o/2 + V_o k^2 x^2 \sim V_{HO}(x) = \frac{1}{2} m \omega^2 x^2
+\]
 
-Deviation of Wannier function from gaussian
+\[
+V_o k^2 = \frac{1}{2} m \omega^2
+\]
 
-Mean Field Phase Diagram
+\[
+\hbar^2 \omega^2 = \frac{2 V_o \hbar^2 k_l^2}{m} = 4 V_o \frac{\hbar^2 k_l^2}{2 m} 
+ \]
+ 
+ \[
+ \omega = 2 \left ( \frac{E_r}{\hbar} \right ) \sqrt{\frac{V_o}{E_r}} 
+ \]
+%
+%\section{Band structure calculation (more explicit)}
+%
+%\section{Wannier functions and their fourier decomposition}
+
+%\section{Approximations for band gaps}
+%
+%\section{Deviation of Wannier function from harmonic oscillator states}
+
+%\section{Mean-field phase diagram}
