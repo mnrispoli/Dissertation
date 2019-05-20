@@ -36,5 +36,16 @@ fontImp = {'family' : 'normal', \
 lineSty = {'linewidth' : 1 \
            }
 
+import numpy as np
+
 def blendClr(color1,color2,alphaVal):
     return np.array(color1)*alphaVal + np.array(color2)*(1-alphaVal)
+
+
+band0Clr=blendClr(matica99B,matica99G,1) 
+band1Clr=blendClr(matica99A,matica99F,1)
+band2Clr=blendClr(matica99B,matica99G,0.66)
+band3Clr=blendClr(matica99A,matica99F,0.66)
+band4Clr=blendClr(matica99B,matica99G,0.33)
+band5Clr=blendClr(matica99A,matica99F,0.33)
+band6Clr=blendClr(matica99B,matica99G,0.15)
