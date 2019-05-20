@@ -1,58 +1,108 @@
 \contentsline {chapter}{\numberline {0}Introduction}{1}{chapter.0}
-\contentsline {chapter}{\numberline {1}Optical Lattices and \newline the Bose-Hubbard model}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Single-particle physics in optical lattices}{4}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Neutral atoms in optical potentials}{4}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Bandstructure and Bloch wavefunctions}{6}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Wannier wavefunctions}{13}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}The Bose-Hubbard model}{16}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Interacting atoms in an optical lattice}{17}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Deriving the Bose-Hubbard model parameters}{18}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Quantum phase transitions: superfluid to Mott-insulator}{22}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Superfluid phase: $J \gg U$}{23}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Mott-insulator: $U \gg J$}{24}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Phase Diagram}{24}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Beyond flat, tight-binding Bose-Hubbard}{26}{section.1.4}
-\contentsline {chapter}{\numberline {2}Quantum gas microscope: \newline an overview}{27}{chapter.2}
-\contentsline {section}{\numberline {2.1}Optical lattice potentials}{29}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}$z$-Lattices}{30}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}$x,y$-Lattices}{32}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Disorder (unintentional) and heating rates}{32}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Arbitrary potential generation}{35}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Disorder (intentional)}{36}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Imaging and readout}{37}{section.2.3}
-\contentsline {section}{\numberline {2.4}Calibration of energy scales}{39}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Lattice depth: Kapitza-Dirac Scattering}{39}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Tunneling $J$ : single-atom quantum walks}{41}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Interaction $U$ and linear tilt $E$: photon-assisted tunneling}{42}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}On-site Disorder pattern $h_i$ : adiabatic transfer}{45}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}Heating rates : spontaneous scattering}{47}{subsection.2.4.5}
-\contentsline {subsection}{\numberline {2.4.6}MI to SF heating? THINK ABOUT THIS LATER}{47}{subsection.2.4.6}
-\contentsline {chapter}{\numberline {3}Correlations, Entanglement, \newline and Quantum Phase Transitions}{49}{chapter.3}
-\contentsline {section}{\numberline {3.1}Correlations and Entanglement}{52}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Some comments near a phase transition}{53}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Superfluid to Mott-insulator transition}{53}{section.3.2}
-\contentsline {section}{\numberline {3.3}Ising model phase transition}{54}{section.3.3}
-\contentsline {chapter}{\numberline {4}Isolated quantum systems and \newline the transition to thermal subsystems}{57}{chapter.4}
-\contentsline {section}{\numberline {4.1}A new kind of phase transition}{58}{section.4.1}
-\contentsline {section}{\numberline {4.2}Thermalization}{58}{section.4.2}
-\contentsline {chapter}{\numberline {5}Adding integrability back with many-body localization}{59}{chapter.5}
-\contentsline {section}{\numberline {5.1}Breaking Integrability with Localization}{60}{section.5.1}
-\contentsline {section}{\numberline {5.2}Anderson Localization}{60}{section.5.2}
-\contentsline {section}{\numberline {5.3}Aubry-Andre Localization}{60}{section.5.3}
-\contentsline {section}{\numberline {5.4}Many-Body Localization}{60}{section.5.4}
-\contentsline {section}{\numberline {5.5}Types of correlations and Entanglement}{60}{section.5.5}
-\contentsline {chapter}{\numberline {6}Critical Dynamics of MBL}{61}{chapter.6}
-\contentsline {section}{\numberline {6.1}Anomalous Diffusive Transport}{62}{section.6.1}
-\contentsline {section}{\numberline {6.2}Determining Critical Thermalization}{62}{section.6.2}
-\contentsline {section}{\numberline {6.3}Correlation Structure}{62}{section.6.3}
-\contentsline {section}{\numberline {6.4}High-order Correlations}{62}{section.6.4}
-\contentsline {section}{\numberline {6.5}Hamming distance?}{62}{section.6.5}
-\contentsline {chapter}{\numberline {7}Contact with a thermal bath}{63}{chapter.7}
-\contentsline {section}{\numberline {7.1}Quasi-Periodic}{63}{section.7.1}
-\contentsline {section}{\numberline {7.2}Thermal Bath}{63}{section.7.2}
-\contentsline {chapter}{\numberline {8}Conclusion}{64}{chapter.8}
-\contentsline {chapter}{Appendix \numberline {A}Atomic Properties of Rb$^{87}$}{65}{Appendix.1.A}
-\contentsline {chapter}{Appendix \numberline {B}Numerics}{66}{Appendix.1.B}
-\contentsline {chapter}{Appendix \numberline {C}Chapter 1 Calculations}{67}{Appendix.1.C}
-\contentsline {chapter}{Appendix \numberline {D}Chapter 2 Calculations}{69}{Appendix.1.D}
-\contentsline {chapter}{References}{70}{chapter*.21}
+\contentsline {section}{\numberline {0.1}What we mean by ``quantum"}{2}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}Single-body quantum}{2}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {0.1.2}Many-body quantum}{4}{subsection.0.1.2}
+\contentsline {section}{\numberline {0.2}Quantum simulation: probing quantum many-body problems}{5}{section.0.2}
+\contentsline {section}{\numberline {0.3}A non-equilibrium quantum phase}{7}{section.0.3}
+\contentsline {section}{\numberline {0.4}Outline}{9}{section.0.4}
+\contentsline {chapter}{\numberline {1}Optical Lattices and \newline the Bose-Hubbard model}{11}{chapter.1}
+\contentsline {section}{\numberline {1.1}Single-particle physics in optical lattices}{12}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Neutral atoms in optical potentials}{13}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Bandstructure and Bloch wave functions}{15}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Wannier wave functions}{21}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}The Bose-Hubbard model}{25}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Interacting atoms in an optical lattice}{26}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Deriving the Bose-Hubbard model parameters}{27}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Quantum phase transitions: superfluid to Mott-insulator}{33}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Superfluid phase: $J \gg U$}{33}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Mott-insulator: $U \gg J$}{34}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Phase Diagram}{35}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Discussion: beyond tight-binding Bose-Hubbard}{37}{section.1.4}
+\contentsline {chapter}{\numberline {2}Quantum gas microscope: \newline an overview}{39}{chapter.2}
+\contentsline {section}{\numberline {2.1}Optical lattice potentials}{42}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}$z$-Lattices}{43}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}$x,y$-Lattices}{45}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Disorder (unintentional) and heating rates}{46}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Arbitrary potential generation}{50}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Disorder (intentional)}{52}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Imaging and readout}{52}{section.2.3}
+\contentsline {section}{\numberline {2.4}Calibration of energy scales}{54}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Lattice depth: Kapitza-Dirac Scattering}{54}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Tunneling $J$ : single-atom quantum walks}{56}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Interaction $U$ and linear tilt $E$: photon-assisted tunneling}{58}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}On-site potential offsets $h_i$ : adiabatic transfer}{60}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Heating rates : spontaneous scattering}{62}{subsection.2.4.5}
+\contentsline {chapter}{\numberline {3}Correlations, Entanglement, \newline and Quantum Phase Transitions}{64}{chapter.3}
+\contentsline {section}{\numberline {3.1}Coherent superposition and statistical distributions}{68}{section.3.1}
+\contentsline {section}{\numberline {3.2}Correlations and Entanglement}{72}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Entropy}{76}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Entanglement and quantum phase transitions}{81}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Superfluid-to-Mott-insulator transition}{83}{section.3.3}
+\contentsline {section}{\numberline {3.4}Ising model phase transition}{88}{section.3.4}
+\contentsline {section}{\numberline {3.5}Discussion}{94}{section.3.5}
+\contentsline {chapter}{\numberline {4}Isolated quantum systems and \newline local thermalization within eigenstates}{95}{chapter.4}
+\contentsline {section}{\numberline {4.1}Quantum thermalization}{96}{section.4.1}
+\contentsline {section}{\numberline {4.2}Protocol and Model}{97}{section.4.2}
+\contentsline {section}{\numberline {4.3}Non-equilibrium systems and highly excited eigenstates}{99}{section.4.3}
+\contentsline {section}{\numberline {4.4}Entropy from entanglement and thermalization}{105}{section.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{110}{section.4.5}
+\contentsline {chapter}{\numberline {5}Correlation dynamics \newline in many-body localization}{113}{chapter.5}
+\contentsline {section}{\numberline {5.1}Localization in the interacting Aubry-Andr\'e model}{116}{section.5.1}
+\contentsline {section}{\numberline {5.2}Breakdown of thermalization}{119}{section.5.2}
+\contentsline {section}{\numberline {5.3}Localization of particles}{122}{section.5.3}
+\contentsline {section}{\numberline {5.4}Entanglement dynamics in an interacting, many-body localized system}{125}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Phenomenological description of localized orbitals: non-interacting}{129}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Phenomenological description of localized orbitals: \emph {interacting}}{132}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Measured entanglement dynamics}{136}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Decoherence from scattering}{139}{section.5.5}
+\contentsline {section}{\numberline {5.6}Discussion}{142}{section.5.6}
+\contentsline {chapter}{\numberline {6}Critical behavior of the \newline many-body-localization transition}{145}{chapter.6}
+\contentsline {section}{\numberline {6.1}Critical behavior and phase transitions}{147}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Critical dynamics in equilibrium phase transitions}{148}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}A non-equilibrium phase transition}{150}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Observing non-equilibrium critical dynamics}{153}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Localization and transport}{154}{section.6.2}
+\contentsline {section}{\numberline {6.3}Critical transport behavior}{157}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Anomalous diffusive transport}{157}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Critical thermalization}{159}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Fluctuations scaling}{160}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Correlation Structure}{161}{section.6.4}
+\contentsline {section}{\numberline {6.5}High-order Correlations}{163}{section.6.5}
+\contentsline {section}{\numberline {6.6}Discussion}{167}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{169}{chapter.7}
+\contentsline {section}{\numberline {7.1}Summary}{169}{section.7.1}
+\contentsline {section}{\numberline {7.2}Outlook}{171}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Localization in different disorder distributions}{171}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Mechanisms for thermalization}{172}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Localization in Fock space}{175}{subsection.7.2.3}
+\contentsline {chapter}{Appendix \numberline {A}Atomic Properties of $\nobreakspace {}^{87}$Rb}{178}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {B}Numerics}{183}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {C}Experimental Sequences}{184}{Appendix.1.C}
+\contentsline {chapter}{Appendix \numberline {D}Chapter 1 Calculations}{187}{Appendix.1.D}
+\contentsline {section}{\numberline {D.1}Optical lattice potential from laser light}{188}{section.1.D.1}
+\contentsline {section}{\numberline {D.2}Harmonic Oscillator Approximation}{188}{section.1.D.2}
+\contentsline {chapter}{Appendix \numberline {E}Chapter 2 Calculations}{190}{Appendix.1.E}
+\contentsline {section}{\numberline {E.1}\emph {Z}-lattices from angled reflection}{191}{section.1.E.1}
+\contentsline {subsection}{\numberline {E.1.1}Fresnel coefficients}{191}{subsection.1.E.1.1}
+\contentsline {subsection}{\numberline {E.1.2}Lattice spacing, contrast, and offset}{191}{subsection.1.E.1.2}
+\contentsline {section}{\numberline {E.2}Calculations for Disorder and zero-point energy}{192}{section.1.E.2}
+\contentsline {chapter}{Appendix \numberline {F}Chapter 3 Calculations}{197}{Appendix.1.F}
+\contentsline {section}{\numberline {F.1}Mapping: Bose-Hubbard model to transverse Ising Model}{198}{section.1.F.1}
+\contentsline {chapter}{Appendix \numberline {G}Chapter 4 Calculations}{199}{Appendix.1.G}
+\contentsline {section}{\numberline {G.1}Predictions from thermodynamic ensembles}{200}{section.1.G.1}
+\contentsline {subsection}{\numberline {G.1.1}Microcanonical Ensemble}{200}{subsection.1.G.1.1}
+\contentsline {subsection}{\numberline {G.1.2}Canonical Ensemble}{201}{subsection.1.G.1.2}
+\contentsline {subsection}{\numberline {G.1.3}Single Eigenstate Ensemble}{202}{subsection.1.G.1.3}
+\contentsline {subsection}{\numberline {G.1.4}Diagonal Ensemble}{202}{subsection.1.G.1.4}
+\contentsline {subsection}{\numberline {G.1.5}Grand Canonical Ensemble}{202}{subsection.1.G.1.5}
+\contentsline {subsection}{\numberline {G.1.6}Observables}{204}{subsection.1.G.1.6}
+\contentsline {section}{\numberline {G.2}Entropies}{204}{section.1.G.2}
+\contentsline {subsection}{\numberline {G.2.1}R\'{e}nyi\hspace {1mm}Entropy}{204}{subsection.1.G.2.1}
+\contentsline {chapter}{Appendix \numberline {H}Chapter 5 Calculations}{206}{Appendix.1.H}
+\contentsline {section}{\numberline {H.1}Scaling and limitations of configurational correlator}{207}{section.1.H.1}
+\contentsline {chapter}{Appendix \numberline {I}Chapter 6 Calculations}{209}{Appendix.1.I}
+\contentsline {section}{\numberline {I.1}$\Delta x$ : Time Scaling Behavior (Power Law 12-Sites)}{209}{section.1.I.1}
+\contentsline {section}{\numberline {I.2}Spectral Statistics}{211}{section.1.I.2}
+\contentsline {section}{\numberline {I.3}Enhanced Thermalization}{212}{section.1.I.3}
+\contentsline {section}{\numberline {I.4}Subsystem-size fluctuations scaling}{213}{section.1.I.4}
+\contentsline {chapter}{references}{232}{chapter*.67}

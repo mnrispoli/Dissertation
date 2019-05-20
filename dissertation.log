@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  27 MAR 2019 09:01
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  16 MAY 2019 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -31,13 +31,63 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count89
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/03/24 v5.7 Page Geometry
+(/usr/local/texlive/2018/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen103
+\captionmargin@=\dimen104
+\captionwidth=\dimen105
+\caption@tempdima=\dimen106
+\caption@indent=\dimen107
+\caption@parindent=\dimen108
+\caption@hangindent=\dimen109
+)
+\c@float@type=\count90
+\float@exts=\toks15
+\float@box=\box26
+\@floatcapt=\box27
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks16
+\flrow@foot=\insert199
+\FB@wd=\dimen110
+\FBo@wd=\dimen111
+\FBc@wd=\dimen112
+\FBo@ht=\skip43
+\FBc@ht=\skip44
+\FBf@ht=\skip45
+\FBo@max=\skip46
+\FBc@max=\skip47
+\FBf@max=\skip48
+\c@FBl@b=\count91
+\floatbox@depth=\count92
+\c@FRobj=\count93
+\c@FRsobj=\count94
+\Xhsize=\skip49
+\sXhsize=\skip50
+\Zhsize=\skip51
+\sZhsize=\skip52
+\flrow@rowbox=\box28
+\FR@Zunitlength=\dimen113
+\c@FBcnt=\count95
+\FPOScnt=\count96
+\LTleft=\skip53
+\LTright=\skip54
+\LTleft=\skip55
+\LTright=\skip56
+\flrow@types=\toks17
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
@@ -48,18 +98,18 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count90
-\Gm@cntv=\count91
-\c@Gm@tempcnt=\count92
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks15
+\Gm@cnth=\count97
+\Gm@cntv=\count98
+\c@Gm@tempcnt=\count99
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks18
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -67,20 +117,20 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip43
-\RaggedLeftLeftskip=\skip44
-\RaggedRightLeftskip=\skip45
-\CenteringRightskip=\skip46
-\RaggedLeftRightskip=\skip47
-\RaggedRightRightskip=\skip48
-\CenteringParfillskip=\skip49
-\RaggedLeftParfillskip=\skip50
-\RaggedRightParfillskip=\skip51
-\JustifyingParfillskip=\skip52
-\CenteringParindent=\skip53
-\RaggedLeftParindent=\skip54
-\RaggedRightParindent=\skip55
-\JustifyingParindent=\skip56
+\CenteringLeftskip=\skip57
+\RaggedLeftLeftskip=\skip58
+\RaggedRightLeftskip=\skip59
+\CenteringRightskip=\skip60
+\RaggedLeftRightskip=\skip61
+\RaggedRightRightskip=\skip62
+\CenteringParfillskip=\skip63
+\RaggedLeftParfillskip=\skip64
+\RaggedRightParfillskip=\skip65
+\JustifyingParfillskip=\skip66
+\CenteringParindent=\skip67
+\RaggedLeftParindent=\skip68
+\RaggedRightParindent=\skip69
+\JustifyingParindent=\skip70
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -99,8 +149,8 @@ Package graphics Info: Driver file: xetex.def on input line 99.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
@@ -114,28 +164,28 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count93
-\c@DefaultDepth=\count94
-\DefaultFindent=\dimen113
-\DefaultNindent=\dimen114
-\DefaultSlope=\dimen115
-\DiscardVskip=\dimen116
-\L@lbox=\box26
-\L@tbox=\box27
-\c@L@lines=\count95
-\c@L@depth=\count96
-\L@Pindent=\dimen117
-\L@Findent=\dimen118
-\L@Nindent=\dimen119
-\L@lraise=\dimen120
-\L@first=\dimen121
-\L@next=\dimen122
-\L@slope=\dimen123
-\L@height=\dimen124
-\L@novskip=\dimen125
-\LettrineWidth=\dimen126
-\LettrineHeight=\dimen127
-\LettrineDepth=\dimen128
+\c@DefaultLines=\count100
+\c@DefaultDepth=\count101
+\DefaultFindent=\dimen124
+\DefaultNindent=\dimen125
+\DefaultSlope=\dimen126
+\DiscardVskip=\dimen127
+\L@lbox=\box29
+\L@tbox=\box30
+\c@L@lines=\count102
+\c@L@depth=\count103
+\L@Pindent=\dimen128
+\L@Findent=\dimen129
+\L@Nindent=\dimen130
+\L@lraise=\dimen131
+\L@first=\dimen132
+\L@next=\dimen133
+\L@slope=\dimen134
+\L@height=\dimen135
+\L@novskip=\dimen136
+\LettrineWidth=\dimen137
+\LettrineHeight=\dimen138
+\LettrineDepth=\dimen139
 
 Loading lettrine.cfg
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lettrine/lettrine.cfg))
@@ -144,8 +194,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks16
-\verbatim@line=\toks17
+\every@verbatim=\toks19
+\verbatim@line=\toks20
 \verbatim@in@stream=\read1
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
@@ -225,14 +275,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen129
-\Hy@linkcounter=\count97
-\Hy@pagecounter=\count98
+\@linkdim=\dimen140
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count99
+\Hy@SavedSpaceFactor=\count106
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -244,17 +294,17 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count100
+\c@Hy@tempcnt=\count107
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen130
-\Fld@menulength=\count101
-\Field@Width=\dimen131
-\Fld@charsize=\dimen132
+\XeTeXLinkMargin=\dimen141
+\Fld@menulength=\count108
+\Field@Width=\dimen142
+\Fld@charsize=\dimen143
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -264,9 +314,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count102
-\c@Item=\count103
-\c@Hfootnote=\count104
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -280,42 +330,92 @@ File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box28
-\c@Hy@AnnotLevel=\count105
-\HyField@AnnotCount=\count106
-\Fld@listcount=\count107
-\c@bookmark@seq@number=\count108
+\pdfm@box=\box31
+\c@Hy@AnnotLevel=\count112
+\HyField@AnnotCount=\count113
+\Fld@listcount=\count114
+\c@bookmark@seq@number=\count115
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip71
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks18
+\@emptytoks=\toks21
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/xelatex/mathspec/mathspec.sty
-Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
-r XeLaTeX)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip72
 
+For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen133
+\@emptytoks=\toks22
+\ex@=\dimen144
 ))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count116
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count117
+\leftroot@=\count118
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count119
+\DOTSCASE@=\count120
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count121
+\c@MaxMatrixCols=\count122
+\dotsspace@=\muskip11
+\c@parentequation=\count123
+\dspbrk@lvl=\count124
+\tag@help=\toks23
+\row@=\count125
+\column@=\count126
+\maxfields@=\count127
+\andhelp@=\toks24
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks25
+\multlinegap=\skip73
+\multlinetaggap=\skip74
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
+r XeLaTeX)
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -323,170 +423,170 @@ Package: expl3 2018/03/05 L3 programming layer (loader)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/03/05 L3 programming layer (code)
-\c_max_int=\count109
-\l_tmpa_int=\count110
-\l_tmpb_int=\count111
-\g_tmpa_int=\count112
-\g_tmpb_int=\count113
-\g__intarray_font_int=\count114
-\g__prg_map_int=\count115
-\c_log_iow=\count116
-\l_iow_line_count_int=\count117
-\l__iow_line_target_int=\count118
-\l__iow_one_indent_int=\count119
-\l__iow_indent_int=\count120
-\c_zero_dim=\dimen134
-\c_max_dim=\dimen135
-\l_tmpa_dim=\dimen136
-\l_tmpb_dim=\dimen137
-\g_tmpa_dim=\dimen138
-\g_tmpb_dim=\dimen139
-\c_zero_skip=\skip58
-\c_max_skip=\skip59
-\l_tmpa_skip=\skip60
-\l_tmpb_skip=\skip61
-\g_tmpa_skip=\skip62
-\g_tmpb_skip=\skip63
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count121
-\c__fp_leading_shift_int=\count122
-\c__fp_middle_shift_int=\count123
-\c__fp_trailing_shift_int=\count124
-\c__fp_big_leading_shift_int=\count125
-\c__fp_big_middle_shift_int=\count126
-\c__fp_big_trailing_shift_int=\count127
-\c__fp_Bigg_leading_shift_int=\count128
-\c__fp_Bigg_middle_shift_int=\count129
-\c__fp_Bigg_trailing_shift_int=\count130
-\l__sort_length_int=\count131
-\l__sort_min_int=\count132
-\l__sort_top_int=\count133
-\l__sort_max_int=\count134
-\l__sort_true_max_int=\count135
-\l__sort_block_int=\count136
-\l__sort_begin_int=\count137
-\l__sort_end_int=\count138
-\l__sort_A_int=\count139
-\l__sort_B_int=\count140
-\l__sort_C_int=\count141
-\l__tl_build_start_index_int=\count142
-\l__tl_build_index_int=\count143
-\l__tl_analysis_normal_int=\count144
-\l__tl_analysis_index_int=\count145
-\l__tl_analysis_nesting_int=\count146
-\l__tl_analysis_type_int=\count147
-\l__regex_internal_a_int=\count148
-\l__regex_internal_b_int=\count149
-\l__regex_internal_c_int=\count150
-\l__regex_balance_int=\count151
-\l__regex_group_level_int=\count152
-\l__regex_mode_int=\count153
-\c__regex_cs_in_class_mode_int=\count154
-\c__regex_cs_mode_int=\count155
-\l__regex_catcodes_int=\count156
-\l__regex_default_catcodes_int=\count157
-\c__regex_catcode_L_int=\count158
-\c__regex_catcode_O_int=\count159
-\c__regex_catcode_A_int=\count160
-\c__regex_all_catcodes_int=\count161
-\l__regex_show_lines_int=\count162
-\l__regex_min_state_int=\count163
-\l__regex_max_state_int=\count164
-\l__regex_left_state_int=\count165
-\l__regex_right_state_int=\count166
-\l__regex_capturing_group_int=\count167
-\l__regex_min_pos_int=\count168
-\l__regex_max_pos_int=\count169
-\l__regex_curr_pos_int=\count170
-\l__regex_start_pos_int=\count171
-\l__regex_success_pos_int=\count172
-\l__regex_curr_char_int=\count173
-\l__regex_curr_catcode_int=\count174
-\l__regex_last_char_int=\count175
-\l__regex_case_changed_char_int=\count176
-\l__regex_curr_state_int=\count177
-\l__regex_step_int=\count178
-\l__regex_min_active_int=\count179
-\l__regex_max_active_int=\count180
-\l__regex_replacement_csnames_int=\count181
-\l__regex_match_count_int=\count182
-\l__regex_min_submatch_int=\count183
-\l__regex_submatch_int=\count184
-\l__regex_zeroth_submatch_int=\count185
-\g__regex_trace_regex_int=\count186
-\c_empty_box=\box29
-\l_tmpa_box=\box30
-\l_tmpb_box=\box31
-\g_tmpa_box=\box32
-\g_tmpb_box=\box33
-\l__box_top_dim=\dimen140
-\l__box_bottom_dim=\dimen141
-\l__box_left_dim=\dimen142
-\l__box_right_dim=\dimen143
-\l__box_top_new_dim=\dimen144
-\l__box_bottom_new_dim=\dimen145
-\l__box_left_new_dim=\dimen146
-\l__box_right_new_dim=\dimen147
-\l__box_internal_box=\box34
-\l__coffin_internal_box=\box35
-\l__coffin_internal_dim=\dimen148
-\l__coffin_offset_x_dim=\dimen149
-\l__coffin_offset_y_dim=\dimen150
-\l__coffin_x_dim=\dimen151
-\l__coffin_y_dim=\dimen152
-\l__coffin_x_prime_dim=\dimen153
-\l__coffin_y_prime_dim=\dimen154
-\c_empty_coffin=\box36
-\l__coffin_aligned_coffin=\box37
-\l__coffin_aligned_internal_coffin=\box38
-\l_tmpa_coffin=\box39
-\l_tmpb_coffin=\box40
-\l__coffin_display_coffin=\box41
-\l__coffin_display_coord_coffin=\box42
-\l__coffin_display_pole_coffin=\box43
-\l__coffin_display_offset_dim=\dimen155
-\l__coffin_display_x_dim=\dimen156
-\l__coffin_display_y_dim=\dimen157
-\l__coffin_bounding_shift_dim=\dimen158
-\l__coffin_left_corner_dim=\dimen159
-\l__coffin_right_corner_dim=\dimen160
-\l__coffin_bottom_corner_dim=\dimen161
-\l__coffin_top_corner_dim=\dimen162
-\l__coffin_scaled_total_height_dim=\dimen163
-\l__coffin_scaled_width_dim=\dimen164
+\c_max_int=\count128
+\l_tmpa_int=\count129
+\l_tmpb_int=\count130
+\g_tmpa_int=\count131
+\g_tmpb_int=\count132
+\g__intarray_font_int=\count133
+\g__prg_map_int=\count134
+\c_log_iow=\count135
+\l_iow_line_count_int=\count136
+\l__iow_line_target_int=\count137
+\l__iow_one_indent_int=\count138
+\l__iow_indent_int=\count139
+\c_zero_dim=\dimen153
+\c_max_dim=\dimen154
+\l_tmpa_dim=\dimen155
+\l_tmpb_dim=\dimen156
+\g_tmpa_dim=\dimen157
+\g_tmpb_dim=\dimen158
+\c_zero_skip=\skip75
+\c_max_skip=\skip76
+\l_tmpa_skip=\skip77
+\l_tmpb_skip=\skip78
+\g_tmpa_skip=\skip79
+\g_tmpb_skip=\skip80
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count140
+\c__fp_leading_shift_int=\count141
+\c__fp_middle_shift_int=\count142
+\c__fp_trailing_shift_int=\count143
+\c__fp_big_leading_shift_int=\count144
+\c__fp_big_middle_shift_int=\count145
+\c__fp_big_trailing_shift_int=\count146
+\c__fp_Bigg_leading_shift_int=\count147
+\c__fp_Bigg_middle_shift_int=\count148
+\c__fp_Bigg_trailing_shift_int=\count149
+\l__sort_length_int=\count150
+\l__sort_min_int=\count151
+\l__sort_top_int=\count152
+\l__sort_max_int=\count153
+\l__sort_true_max_int=\count154
+\l__sort_block_int=\count155
+\l__sort_begin_int=\count156
+\l__sort_end_int=\count157
+\l__sort_A_int=\count158
+\l__sort_B_int=\count159
+\l__sort_C_int=\count160
+\l__tl_build_start_index_int=\count161
+\l__tl_build_index_int=\count162
+\l__tl_analysis_normal_int=\count163
+\l__tl_analysis_index_int=\count164
+\l__tl_analysis_nesting_int=\count165
+\l__tl_analysis_type_int=\count166
+\l__regex_internal_a_int=\count167
+\l__regex_internal_b_int=\count168
+\l__regex_internal_c_int=\count169
+\l__regex_balance_int=\count170
+\l__regex_group_level_int=\count171
+\l__regex_mode_int=\count172
+\c__regex_cs_in_class_mode_int=\count173
+\c__regex_cs_mode_int=\count174
+\l__regex_catcodes_int=\count175
+\l__regex_default_catcodes_int=\count176
+\c__regex_catcode_L_int=\count177
+\c__regex_catcode_O_int=\count178
+\c__regex_catcode_A_int=\count179
+\c__regex_all_catcodes_int=\count180
+\l__regex_show_lines_int=\count181
+\l__regex_min_state_int=\count182
+\l__regex_max_state_int=\count183
+\l__regex_left_state_int=\count184
+\l__regex_right_state_int=\count185
+\l__regex_capturing_group_int=\count186
+\l__regex_min_pos_int=\count187
+\l__regex_max_pos_int=\count188
+\l__regex_curr_pos_int=\count189
+\l__regex_start_pos_int=\count190
+\l__regex_success_pos_int=\count191
+\l__regex_curr_char_int=\count192
+\l__regex_curr_catcode_int=\count193
+\l__regex_last_char_int=\count194
+\l__regex_case_changed_char_int=\count195
+\l__regex_curr_state_int=\count196
+\l__regex_step_int=\count197
+\l__regex_min_active_int=\count198
+\l__regex_max_active_int=\count266
+\l__regex_replacement_csnames_int=\count267
+\l__regex_match_count_int=\count268
+\l__regex_min_submatch_int=\count269
+\l__regex_submatch_int=\count270
+\l__regex_zeroth_submatch_int=\count271
+\g__regex_trace_regex_int=\count272
+\c_empty_box=\box34
+\l_tmpa_box=\box35
+\l_tmpb_box=\box36
+\g_tmpa_box=\box37
+\g_tmpb_box=\box38
+\l__box_top_dim=\dimen159
+\l__box_bottom_dim=\dimen160
+\l__box_left_dim=\dimen161
+\l__box_right_dim=\dimen162
+\l__box_top_new_dim=\dimen163
+\l__box_bottom_new_dim=\dimen164
+\l__box_left_new_dim=\dimen165
+\l__box_right_new_dim=\dimen166
+\l__box_internal_box=\box39
+\l__coffin_internal_box=\box40
+\l__coffin_internal_dim=\dimen167
+\l__coffin_offset_x_dim=\dimen168
+\l__coffin_offset_y_dim=\dimen169
+\l__coffin_x_dim=\dimen170
+\l__coffin_y_dim=\dimen171
+\l__coffin_x_prime_dim=\dimen172
+\l__coffin_y_prime_dim=\dimen173
+\c_empty_coffin=\box41
+\l__coffin_aligned_coffin=\box42
+\l__coffin_aligned_internal_coffin=\box43
+\l_tmpa_coffin=\box44
+\l_tmpb_coffin=\box45
+\l__coffin_display_coffin=\box46
+\l__coffin_display_coord_coffin=\box47
+\l__coffin_display_pole_coffin=\box48
+\l__coffin_display_offset_dim=\dimen174
+\l__coffin_display_x_dim=\dimen175
+\l__coffin_display_y_dim=\dimen176
+\l__coffin_bounding_shift_dim=\dimen177
+\l__coffin_left_corner_dim=\dimen178
+\l__coffin_right_corner_dim=\dimen179
+\l__coffin_bottom_corner_dim=\dimen180
+\l__coffin_top_corner_dim=\dimen181
+\l__coffin_scaled_total_height_dim=\dimen182
+\l__coffin_scaled_width_dim=\dimen183
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count187
+\g__driver_image_int=\count273
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count188
-\g__xparse_grabber_int=\count189
-\l__xparse_m_args_int=\count190
-\l__xparse_mandatory_args_int=\count191
-\l__xparse_v_nesting_int=\count192
+\l__xparse_current_arg_int=\count274
+\g__xparse_grabber_int=\count275
+\l__xparse_m_args_int=\count276
+\l__xparse_mandatory_args_int=\count277
+\l__xparse_v_nesting_int=\count278
 )
 Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count193
-\l__fontspec_language_int=\count194
-\l__fontspec_strnum_int=\count195
-\l__fontspec_tmp_int=\count196
-\l__fontspec_em_int=\count197
-\l__fontspec_emdef_int=\count198
-\l__fontspec_strong_int=\count199
-\l__fontspec_strongdef_int=\count266
-\l__fontspec_tmpa_dim=\dimen165
-\l__fontspec_tmpb_dim=\dimen166
-\l__fontspec_tmpc_dim=\dimen167
+\l__fontspec_script_int=\count279
+\l__fontspec_language_int=\count280
+\l__fontspec_strnum_int=\count281
+\l__fontspec_tmp_int=\count282
+\l__fontspec_em_int=\count283
+\l__fontspec_emdef_int=\count284
+\l__fontspec_strong_int=\count285
+\l__fontspec_strongdef_int=\count286
+\l__fontspec_tmpa_dim=\dimen184
+\l__fontspec_tmpb_dim=\dimen185
+\l__fontspec_tmpc_dim=\dimen186
 \g__file_internal_ior=\read2
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
@@ -691,17 +791,17 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks20
-\XKV@tempa@toks=\toks21
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count267
+\XKV@depth=\count287
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@eu@=\count268
-\c@eu@i=\count269
-\c@mkern=\count270
+\c@eu@=\count288
+\c@eu@i=\count289
+\c@mkern=\count290
 )
-\g__fontspec_family_EBGaramond_int=\count271
+\g__fontspec_family_EBGaramond_int=\count291
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -727,27 +827,27 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"EB
 . Garamond/BI/OT:script=latn;language=DFLT;+smcp;"
 .................................................
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 88.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  TU/EBGaramond(0)/m/n --> TU/EBGaramond(0)/bx/n on input
- line 88.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 88.
+ line 89.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/EBGaramond(0)/m/it on input line 88
+(Font)                  OT1/cmr/m/it --> TU/EBGaramond(0)/m/it on input line 89
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/EBGaramond(0)/m/it on input line 8
-8.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 88.
+9.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(0)/bx/n on input line 88
+(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(0)/bx/n on input line 89
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(0)/bx/n on input line 88
+(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(0)/bx/n on input line 89
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/EBGaramond(0)/m/it --> TU/EBGaramond(0)/bx/it on inp
-ut line 88.
+ut line 89.
 \symOperators:m:n=\mathgroup6
 .................................................
 . fontspec info: "no-font-shape"
@@ -776,9 +876,9 @@ ut line 88.
 . Garamond/BI/OT:script=latn;language=DFLT;+onum;+liga;+smcp;mapping=tex-text;"
 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 93.
+LaTeX Info: Redefining \rmfamily on input line 94.
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 93.
+(Font)              scaled to size 12.0pt on input line 94.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -810,7 +910,7 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 . 
 . Lato Regular scale = 0.8094761101403867.
 .................................................
-\g__fontspec_family_LatoRegular_int=\count272
+\g__fontspec_family_LatoRegular_int=\count292
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -852,13 +952,13 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 . Bold/I/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \sffamily on input line 95.
+LaTeX Info: Redefining \sffamily on input line 96.
 .................................................
 . fontspec info: "set-scale"
 . 
 . Source Code Pro scale = 0.8541671633725133.
 .................................................
-\g__fontspec_family_SourceCodePro_int=\count273
+\g__fontspec_family_SourceCodePro_int=\count293
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -911,38 +1011,28 @@ rcase].
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
 . \tex_hyphenchar:D \font =-1\scan_stop: 
 .................................................
-LaTeX Info: Redefining \ttfamily on input line 96.
+LaTeX Info: Redefining \ttfamily on input line 97.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen168
-\captionmargin@=\dimen169
-\captionwidth=\dimen170
-\caption@tempdima=\dimen171
-\caption@indent=\dimen172
-\caption@parindent=\dimen173
-\caption@hangindent=\dimen174
-)
 Package caption Info: We need package `newfloat' on input line 292.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/newfloat.sty
 Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
 )
-\c@ContinuedFloat=\count274
+\c@ContinuedFloat=\count294
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks22
-\MT@count=\count275
+\MT@toks=\toks29
+\MT@count=\count295
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen175
+\MT@outer@kern=\dimen187
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count276
+\MT@listname@count=\count296
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype-xetex.def
 File: microtype-xetex.def 2018/01/14 v2.7a Definitions specific to xetex (RS)
@@ -956,108 +1046,127 @@ File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip64
-\f@nch@O@elh=\skip65
-\f@nch@O@erh=\skip66
-\f@nch@O@olh=\skip67
-\f@nch@O@orh=\skip68
-\f@nch@O@elf=\skip69
-\f@nch@O@erf=\skip70
-\f@nch@O@olf=\skip71
-\f@nch@O@orf=\skip72
+\f@nch@headwidth=\skip81
+\f@nch@O@elh=\skip82
+\f@nch@O@erh=\skip83
+\f@nch@O@olh=\skip84
+\f@nch@O@orh=\skip85
+\f@nch@O@elf=\skip86
+\f@nch@O@erf=\skip87
+\f@nch@O@olf=\skip88
+\f@nch@O@orf=\skip89
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box44
-\beforetitleunit=\skip73
-\aftertitleunit=\skip74
-\ttl@plus=\dimen176
-\ttl@minus=\dimen177
-\ttl@toksa=\toks23
-\titlewidth=\dimen178
-\titlewidthlast=\dimen179
-\titlewidthfirst=\dimen180
+\ttl@box=\box49
+\beforetitleunit=\skip90
+\aftertitleunit=\skip91
+\ttl@plus=\dimen188
+\ttl@minus=\dimen189
+\ttl@toksa=\toks30
+\titlewidth=\dimen190
+\titlewidthlast=\dimen191
+\titlewidthfirst=\dimen192
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip75
-\thanksmargin=\skip76
-\droptitle=\skip77
+\thanksmarkwidth=\skip92
+\thanksmargin=\skip93
+\droptitle=\skip94
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip78
-\cftbeforetoctitleskip=\skip79
-\cftaftertoctitleskip=\skip80
-\cftbeforepartskip=\skip81
-\cftpartnumwidth=\skip82
-\cftpartindent=\skip83
-\cftbeforechapskip=\skip84
-\cftchapindent=\skip85
-\cftchapnumwidth=\skip86
-\cftbeforesecskip=\skip87
-\cftsecindent=\skip88
-\cftsecnumwidth=\skip89
-\cftbeforesubsecskip=\skip90
-\cftsubsecindent=\skip91
-\cftsubsecnumwidth=\skip92
-\cftbeforesubsubsecskip=\skip93
-\cftsubsubsecindent=\skip94
-\cftsubsubsecnumwidth=\skip95
-\cftbeforeparaskip=\skip96
-\cftparaindent=\skip97
-\cftparanumwidth=\skip98
-\cftbeforesubparaskip=\skip99
-\cftsubparaindent=\skip100
-\cftsubparanumwidth=\skip101
-\cftbeforeloftitleskip=\skip102
-\cftafterloftitleskip=\skip103
-\cftbeforefigskip=\skip104
-\cftfigindent=\skip105
-\cftfignumwidth=\skip106
-\c@lofdepth=\count277
-\c@lotdepth=\count278
-\cftbeforelottitleskip=\skip107
-\cftafterlottitleskip=\skip108
-\cftbeforetabskip=\skip109
-\cfttabindent=\skip110
-\cfttabnumwidth=\skip111
+\cftparskip=\skip95
+\cftbeforetoctitleskip=\skip96
+\cftaftertoctitleskip=\skip97
+\cftbeforepartskip=\skip98
+\cftpartnumwidth=\skip99
+\cftpartindent=\skip100
+\cftbeforechapskip=\skip101
+\cftchapindent=\skip102
+\cftchapnumwidth=\skip103
+\cftbeforesecskip=\skip104
+\cftsecindent=\skip105
+\cftsecnumwidth=\skip106
+\cftbeforesubsecskip=\skip107
+\cftsubsecindent=\skip108
+\cftsubsecnumwidth=\skip109
+\cftbeforesubsubsecskip=\skip110
+\cftsubsubsecindent=\skip111
+\cftsubsubsecnumwidth=\skip112
+\cftbeforeparaskip=\skip113
+\cftparaindent=\skip114
+\cftparanumwidth=\skip115
+\cftbeforesubparaskip=\skip116
+\cftsubparaindent=\skip117
+\cftsubparanumwidth=\skip118
+\cftbeforeloftitleskip=\skip119
+\cftafterloftitleskip=\skip120
+\cftbeforefigskip=\skip121
+\cftfigindent=\skip122
+\cftfignumwidth=\skip123
+\c@lofdepth=\count297
+\c@lotdepth=\count298
+\cftbeforelottitleskip=\skip124
+\cftafterlottitleskip=\skip125
+\cftbeforetabskip=\skip126
+\cfttabindent=\skip127
+\cfttabnumwidth=\skip128
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count279
-\c@@ppsavesec=\count280
-\c@@ppsaveapp=\count281
+\c@@pps=\count299
+\c@@ppsavesec=\count300
+\c@@ppsaveapp=\count301
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip112
-\bibsep=\skip113
+\bibhang=\skip129
+\bibsep=\skip130
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count282
+\c@NAT@ctr=\count302
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/quotchap/quotchap.sty
 Package: quotchap 2012/10/20 v1.1 Decorative Chapter Headings with Quotes
-\@quotebox=\box45
+\@quotebox=\box50
 )
-\mybibindent=\skip114
-Package hyperref Info: Option `colorlinks' set `true' on input line 203.
+\mybibindent=\skip131
+Package hyperref Info: Option `colorlinks' set `true' on input line 204.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks31
+\footnotemargin=\dimen193
+\c@pp@next@reset=\count303
+\c@@fnserial=\count304
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
 )
 (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux
+(./chapters/chapter2.aux) (./chapters/chapter3.aux
 
-LaTeX Warning: Label `fig:EUCal' multiply defined.
-
-) (./chapters/chapter3.aux
-
-LaTeX Warning: Label `fig:sf_mi_fig' multiply defined.
+LaTeX Warning: Label `eqn:MI' multiply defined.
 
 ) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux)
-(./chapters/chapter7.aux) (./chapters/conclusion.aux)
-(./chapters/appendAtomProp.aux) (./chapters/appendNumerics.aux)
-(./chapters/appendCh1.aux) (./chapters/appendCh2.aux) (./endmatter/colophon.aux
-))
+(./chapters/conclusion.aux) (./chapters/appendAtomProp.aux)
+(./chapters/appendNumerics.aux) (./chapters/appendSequences.aux)
+(./chapters/appendCh1.aux) (./chapters/appendCh2.aux
+
+LaTeX Warning: Label `eqn:red' multiply defined.
+
+) (./chapters/appendCh3.aux) (./chapters/appendCh4.aux)
+(./chapters/appendCh5.aux) (./chapters/appendCh6.aux
+
+LaTeX Warning: Label `eqn:FNL' multiply defined.
+
+) (./endmatter/colophon.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1078,6 +1187,10 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: floatrow package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package caption Info: We need package `ragged2e' on input line 7.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1115,7 +1228,7 @@ LaTeX Font Info:    ... okay on input line 7.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 7.
-\AtBeginShipoutBox=\box46
+\AtBeginShipoutBox=\box51
 Package hyperref Info: Link coloring ON on input line 7.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1124,7 +1237,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count305
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -1134,9 +1247,6 @@ LaTeX Info: Redefining \nameref on input line 7.
 \@outlinefile=\write3
 \openout3 = `dissertation.out'.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-Package caption Info: We need package `ragged2e' on input line 7.
 LaTeX Info: Redefining \microtypecontext on input line 7.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1172,10 +1282,30 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
  [2]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 13.
- (./frontmatter/abstract.tex) [3]
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 13.
+ (./frontmatter/abstract.tex
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [3])
+[4]
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 13.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-ppl.cfg
@@ -1186,352 +1316,552 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 LaTeX Font Warning: Font shape `TU/EBGaramond(1)/bx/n' undefined
 (Font)              using `TU/EBGaramond(1)/m/n' instead on input line 1.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
  [][] [][][]\TU/EBGaramond(1)/m/sc/12 Optical Lattices and  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
  [][] [][][]\TU/EBGaramond(1)/m/sc/12 Quantum gas microscope:  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
  [][] [][][]\TU/EBGaramond(1)/m/sc/12 Correlations, Entanglement,  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
  [][] [][][]\TU/EBGaramond(1)/m/sc/12 Isolated quantum systems and  
  []
 
-[4
+[5
 
-])
+]
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+ [][] [][][]\TU/EBGaramond(1)/m/sc/12 Correlation dynamics  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+ [][] [][][]\TU/EBGaramond(1)/m/sc/12 Critical behavior of the  
+ []
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/it' will be
+(Font)              scaled to size 10.95pt on input line 85.
+[6])
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [5] (./frontmatter/dedication.tex) [6
+ [7] (./frontmatter/dedication.tex) [8
 
 ] (./frontmatter/thanks.tex
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/sl' in size <10> not availab
-le
-(Font)              Font shape `TU/EBGaramond(1)/m/it' tried instead on input l
-ine 4.
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 4.
-) [7
+(Font)              scaled to size 8.0pt on input line 17.
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
+(Font)              scaled to size 9.59998pt on input line 17.
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 17.
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 17.
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
+(Font)              scaled to size 8.39998pt on input line 17.
+ [9
 
 
 ]
+[10] [11] [12] [13] [14]) [15] [16]
 \openout2 = `chapters/introduction.aux'.
 
+ (./chapters/introduction.tex
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/sl' in size <10> not availab
+le
+(Font)              Font shape `TU/EBGaramond(1)/m/it' tried instead on input l
+ine 2.
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 2.
 
-(./chapters/introduction.tex
 Chapter 0.
 [1
 
 
-]) [2]
+]
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 23.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[][]\TU/EBGaramond(1)/m/n/10 This is property is analogous to the Fourier trans
+form: a delta function in any basis is maximally dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/EBGaramond(1)/m/n/10 tributed among all degrees of freedom in its complemen
+tary, Fourier transformed basis. This comparison
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/EBGaramond(1)/m/n/10 is relevant since it accurately describes the behavior
+ of waves – which all matter seems to be microscopically
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[][]\TU/EBGaramond(1)/m/n/10 The exact outcomes will depend upon the underlying
+ quantum statistics of the objects themselves too:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\TU/EBGaramond(1)/m/n/10 bosonic or fermionic, which depend on the symmetries o
+f the quantum mechanical object and will not be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[][]\TU/EBGaramond(1)/m/n/10 This does not mean that many-particles act togethe
+r simply like a single classical wave, like waves on the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/EBGaramond(1)/m/n/10 surface of water in the ocean. In this case all the pa
+rticles are interacting with their neighbors through a linear
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/EBGaramond(1)/m/n/10 response equation such that collective wave-like excit
+ations can be made on the water. This classical wave is de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/EBGaramond(1)/m/n/10 fined in a local, spatial basis where all interference
+ in this wave happens only locally with itself or other waves.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/EBGaramond(1)/m/n/10 A many-bodied quantum wave function revolves around th
+e global state itself having wave-like properties in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\TU/EBGaramond(1)/m/n/10 the sense that it cannot be written as purely in a loc
+al basis and interference effects happen for this system on a
+ []
+
+[3] [4] [5] [6] [7] [8] [9]
+Overfull \hbox (14.76485pt too wide) in paragraph at lines 89--90
+\TU/EBGaramond(1)/bx/n/10.95 body-localized one. This transition is the focus o
+f recent interest in the study of non-equilibrium 
+ []
+
+) [10]
 \openout2 = `chapters/chapter1.aux'.
 
  (./chapters/chapter1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]\TU/EBGaramond(1)/m/it/10 Potential energy is just a word. It only has meanin
+g if
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\TU/EBGaramond(1)/m/it/10 we provide it. For example, does this pen have potent
+ial
+ []
+
 Chapter 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 8.
+(hyperref)                removing `\newline' on input line 10.
 
-[3
+[11
 
 
 
-] [4] [5]
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 42.
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 9.59998pt on input line 42.
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 42.
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 8.39998pt on input line 42.
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-[][][]\TU/EBGaramond(1)/m/n/10 This is k-vector is defined as $\OT1/cmr/m/n/10 
-2\OML/cmm/m/it/10 ^^Y=^^U$ \TU/EBGaramond(1)/m/n/10 when the light used to crea
-te the potential originates from two
+] [12] [13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[][]\TU/EBGaramond(1)/m/n/10 This k-vector ($\OML/cmm/m/it/10 k[]$\TU/EBGaramon
+d(1)/m/n/10 ) is defined as $\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ^^Y=^^U$ \TU/EBG
+aramond(1)/m/n/10 when the light used to create the potential originates from t
+wo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-\TU/EBGaramond(1)/m/n/10 counter-propagating lasers where $\OML/cmm/m/it/10 lam
-bda$ \TU/EBGaramond(1)/m/n/10 is the laser wavelength. However, this only provi
-des an upper-
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\TU/EBGaramond(1)/m/n/10 counter-propagating lasers where $\OML/cmm/m/it/10 ^^U
+$ \TU/EBGaramond(1)/m/n/10 is the laser wavelength. However, this only provides
+ an upper-bound for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-\TU/EBGaramond(1)/m/n/10 bound for what k-vector can be produced by a given las
-er wavelength. What matters is the k-vector in the
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\TU/EBGaramond(1)/m/n/10 what k-vector can be produced by a given laser wavelen
+gth. What matters is the k-vector in the plane of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-\TU/EBGaramond(1)/m/n/10 plane of the lattice formed by the lasers which can be
- tuned by their relative angle. This point will be further
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\TU/EBGaramond(1)/m/n/10 lattice formed by the lasers which can be tuned by the
+ir relative angle. This point will be further elucidated in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[][][]\TU/EBGaramond(1)/m/n/10 This is, of course, obvious since the Hamiltonia
-n is composed of only the momentum operator $[]$. How-
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[][]\TU/EBGaramond(1)/m/n/10 This is, of course, obvious since the Hamiltonian 
+is composed of only the momentum operator $[]$.
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[][]\TU/EBGaramond(1)/m/n/10 The presence of these high-frequency variations co
+me through the Fourier series of $\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm
+/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/EBGaramond(1)/m/n/10 and will be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-\TU/EBGaramond(1)/m/n/10 ever, the statement about translational symmetry in sp
-ace and conserved momentum is a general one and
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\TU/EBGaramond(1)/m/n/10 apparent in the higher bands defined by the index $\OM
+L/cmm/m/it/10 n$\TU/EBGaramond(1)/m/n/10 , which are related to the free-partic
+le momentum states
  []
 
-[7] [8]
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 110.
- [9]
-File: figures/ch1/BandStructure/BZ_BS.pdf Graphic file (type pdf)
-<use figures/ch1/BandStructure/BZ_BS.pdf>
+[16] [17] [18]
+File: figures/ch1/BandStructure/BZ_BS_v2_edit.pdf Graphic file (type pdf)
+<use figures/ch1/BandStructure/BZ_BS_v2_edit.pdf>
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 114.
+(Font)              scaled to size 12.0pt on input line 122.
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 9.5907pt on input line 114.
+(Font)              scaled to size 9.5907pt on input line 122.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LatoRegular' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 7.99225pt on input line 114.
+(Font)              scaled to size 7.99225pt on input line 122.
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 9.71375pt on input line 114.
+(Font)              scaled to size 9.71375pt on input line 122.
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.09479pt on input line 114.
+(Font)              scaled to size 8.09479pt on input line 122.
+ [19]
+Overfull \hbox (6.79869pt too wide) in paragraph at lines 132--133
+[]\TU/EBGaramond(1)/bx/n/10.95 are both composed of the same free-particle mome
+nta states, their symmetric versus anti-symmetric 
+ []
 
+File: figures/ch1/blochFx/BlochFunctionsBS2_v2edit.pdf Graphic file (type pdf)
+<use figures/ch1/blochFx/BlochFunctionsBS2_v2edit.pdf>
 
-LaTeX Warning: Reference `fig:blochFx' on page 10 undefined on input line 118.
-
-[10]
-File: figures/ch1/blochFx/BlochFunctionsBS2.pdf Graphic file (type pdf)
-<use figures/ch1/blochFx/BlochFunctionsBS2.pdf>
-
-Overfull \hbox (6.65929pt too wide) in paragraph at lines 126--127
+Overfull \hbox (9.18051pt too wide) in paragraph at lines 140--141
 \TU/EBGaramond(1)/bx/n/10.95 tween the maximum and minimum energy for a given b
-and ($\OML/cmm/m/it/10.95 arg [][] [] \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.
-95 arg [][] []\OT1/cmr/m/n/10.95 )$\TU/EBGaramond(1)/bx/n/10.95 , 
+and $[]$, 
  []
 
-[11]
-File: figures/ch1/BandStructure/BSScale.pdf Graphic file (type pdf)
-<use figures/ch1/BandStructure/BSScale.pdf>
- [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[][][]\TU/EBGaramond(1)/m/n/10 It doesn’t actually matter which phase you pick 
-for this site, just that you rotate all Bloch wavefunctions
+[20]
+File: figures/ch1/BandStructure/BSScaleV2_edit.pdf Graphic file (type pdf)
+<use figures/ch1/BandStructure/BSScaleV2_edit.pdf>
+ [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+[][]\TU/EBGaramond(1)/m/n/10 It does not actually matter which phase you pick f
+or this site, just that you rotate all Bloch wave func-
  []
 
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 154.
-[14]
-File: figures/ch1/BHParams/WannierFx.pdf Graphic file (type pdf)
-<use figures/ch1/BHParams/WannierFx.pdf>
+[23]
+File: figures/ch1/BHParams/WannierFx_v2edit.pdf Graphic file (type pdf)
+<use figures/ch1/BHParams/WannierFx_v2edit.pdf>
+LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/it' will be
+(Font)              scaled to size 8.09479pt on input line 178.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
-[][][]\TU/EBGaramond(1)/m/n/10 This is additionally a conceptually comforting f
-act as the cosine potential providing the lattice can be
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[][]\TU/EBGaramond(1)/m/n/10 This is additionally a conceptually comforting fac
+t as the cosine potential providing the lattice can be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
 \TU/EBGaramond(1)/m/n/10 approximated to lowest order as a quadratic potential.
  However, due to the finite depth of the lattice, there is
  []
 
-[15] [16] [17]
-Overfull \hbox (54.76025pt too wide) detected at line 198
-[][]\OML/cmm/m/it/10.95 H \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 d[]x [][]
-\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 ) [] [](\OML/cmm/m/
-it/10.95 x\OT1/cmr/m/n/10.95 ) [] + [][] [] \OML/cmm/m/it/10.95 d[]x [] d[]x[] 
-[][]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )[](\OML/cmm/m/
-it/10.95 x[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ^^N\OT1/cmr/m/n/10.95 (\OML
-/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/1
-0.95 )[](\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )[](\OML/cmm/m/it/10.95 x[]\OT
-1/cmr/m/n/10.95 )[]
+[24] [25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[][]\TU/EBGaramond(1)/m/n/10 Note that by using this many-bodied bosonic field 
+operator $[]\OT1/cmr/m/n/10 ([])$\TU/EBGaramond(1)/m/n/10 , we have implicitly 
+moved into a
  []
 
-[18] [19]
-File: figures/ch1/BHParams/BHParams.pdf Graphic file (type pdf)
-<use figures/ch1/BHParams/BHParams.pdf>
- [20] [21] [22] [23] [24]
-File: figures/ch1/MeanFieldPhaseDiag/MeanFieldDiag.pdf Graphic file (type pdf)
-<use figures/ch1/MeanFieldPhaseDiag/MeanFieldDiag.pdf>
- [25]) [26]
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+\TU/EBGaramond(1)/m/n/10 second-quantized notation. This means that later when 
+we populate this bosonic field with individual atoms
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+\TU/EBGaramond(1)/m/n/10 as quantized excitations in the field ($[]$), we have 
+assumed these excitations to be indistinguishable from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+\TU/EBGaramond(1)/m/n/10 one another and will correctly incorporate the symmetr
+ization necessary to accommodate these quantum
+ []
+
+[27] [28]
+File: figures/ch1/bh_cartoons/bh_cartoon.pdf Graphic file (type pdf)
+<use figures/ch1/bh_cartoons/bh_cartoon.pdf>
+ [29]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 261.
+
+File: figures/ch1/BHParams/BHParams_2.pdf Graphic file (type pdf)
+<use figures/ch1/BHParams/BHParams_2.pdf>
+[30] [31] [32] [33] [34]
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 334.
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[][]\TU/EBGaramond(1)/bx/n/10 A subtlety when attempting to reach the Mott-insu
+lating state in a real system is fulfilling this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 commensurability requirement. If one is using a box-l
+ike potential (rather than a harmonic trap), the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 system \TU/EBGaramond(1)/m/it/10 must \TU/EBGaramond(
+1)/bx/n/10 have commensurate filling to reach a true Mott-insulating plateau. O
+therwise the system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 will be effectively descried by two competing effects
+: a Mott-insulating plateau with closest lower in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 teger on-site filling $[]$ that is accompanied by an 
+overlap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 ping superfluid that lives on top of this Mott-insula
+ting plateau with the remaining delocalized atoms
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[]$\TU/EBGaramond(1)/bx/n/10 . Realizing a state that is similar to a combinati
+on of the two and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 can be difficult to realize the underlying state $[]$
+. However, in \TU/EBGaramond(1)/m/it/10 most \TU/EBGaramond(1)/bx/n/10 ultra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 cold atom experiments, such a potential is not used. 
+Instead, the varying trap potential can be approximated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 as a slowly varying chemical potential (known as the 
+local density approximation) and spatially redistributes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 atoms to form true integer filling Mott plateaus in a
+ canonical “wedding cake” structure (Fig. [][]1.7[][]b) with su-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/EBGaramond(1)/bx/n/10 perfluid regions living between the Mott-insulating l
+ayers of the “cake”. This is more thoroughly described in
+ []
+
+[35]
+File: figures/ch1/MeanFieldPhaseDiag/MeanFieldDiag_v3.pdf Graphic file (type pd
+f)
+<use figures/ch1/MeanFieldPhaseDiag/MeanFieldDiag_v3.pdf>
+ [36] [37]) [38]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 8.
+(hyperref)                removing `\newline' on input line 7.
 
-[27
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[][]\TU/EBGaramond(1)/bx/n/10 Traditional microscope naming conventions typical
+ly refer to the method by which they probe the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\TU/EBGaramond(1)/bx/n/10 phenomena of interest (i.e. \TU/EBGaramond(1)/m/it/10
+ optical \TU/EBGaramond(1)/bx/n/10 microscopy, \TU/EBGaramond(1)/m/it/10 electr
+on \TU/EBGaramond(1)/bx/n/10 microscopy). Although this microscope may seem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\TU/EBGaramond(1)/bx/n/10 dissimilar to this naming convention, an important po
+int of this apparatus is that it is using the quantum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\TU/EBGaramond(1)/bx/n/10 properties of the degenerate atomic gas to probe phys
+ics that is harbored by Hamiltonians of interest. While
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\TU/EBGaramond(1)/bx/n/10 I do not think this name was intentionally chosen to 
+reflect this approach, I think it is a surprisingly appropri-
+ []
+
+[39
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[][][]\TU/EBGaramond(1)/m/n/10 Traditional microscope naming conventions typica
-lly refer to the method by which they probe the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-\TU/EBGaramond(1)/m/n/10 phenomena of interest (i.e. \TU/EBGaramond(1)/m/it/10 
-optical \TU/EBGaramond(1)/m/n/10 microscopy, \TU/EBGaramond(1)/m/it/10 electron
- \TU/EBGaramond(1)/m/n/10 microscopy). Although this microscope may seem
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-\TU/EBGaramond(1)/m/n/10 dissimilar to this naming convention, an important poi
-nt of this apparatus is that it is using the quantum
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-\TU/EBGaramond(1)/m/n/10 properties of the degenerate atomic gas to probe physi
-cs that is harbored by Hamiltonians of interest. While I
- []
-
-File: figures/ch2/QGM/imaging_system_green.pdf Graphic file (type pdf)
-<use figures/ch2/QGM/imaging_system_green.pdf>
-[28] [29] [30]
-File: figures/ch2/heating_rates/axLatRef.pdf Graphic file (type pdf)
-<use figures/ch2/heating_rates/axLatRef.pdf>
- [31] [32]
-
-LaTeX Warning: Reference `fig:epsV' on page 33 undefined on input line 55.
-
-
-Overfull \hbox (2.69484pt too wide) in paragraph at lines 55--56
+File: figures/ch2/QGM/imaging_system_green_v2.pdf Graphic file (type pdf)
+<use figures/ch2/QGM/imaging_system_green_v2.pdf>
+ [40]
+File: figures/ch2/QGM/qgm_microscope_xylat_v2.pdf Graphic file (type pdf)
+<use figures/ch2/QGM/qgm_microscope_xylat_v2.pdf>
+ [41] [42] [43]
+File: figures/ch2/heating_rates/axLatRefv2edit.pdf Graphic file (type pdf)
+<use figures/ch2/heating_rates/axLatRefv2edit.pdf>
+ [44] [45]
+Overfull \hbox (2.69484pt too wide) in paragraph at lines 59--60
 \TU/EBGaramond(1)/bx/n/10.95 from this disorder corresponds to a modulation in 
 the on-site potential height $\OML/cmm/m/it/10.95 h[]$ \TU/EBGaramond(1)/bx/n/1
 0.95 in the tight-binding 
  []
 
-[33]
-Overfull \hbox (18.54604pt too wide) in paragraph at lines 59--60
-\TU/EBGaramond(1)/bx/n/10.95 the Lamb Dicke regime (cite Daley). Once you inclu
-de the Lamb Dicke parameter, $\OML/cmm/m/it/10.95 ^^Q[] \OT1/cmr/m/n/10.95 = (4
-\OML/cmm/m/it/10.95 V[]=E[]\OT1/cmr/m/n/10.95 )[]$\TU/EBGaramond(1)/bx/n/10.95 
-, 
- []
-
-[34]
-File: figures/ch2/heating_rates/ScatteringRates.pdf Graphic file (type pdf)
-<use figures/ch2/heating_rates/ScatteringRates.pdf>
- [35] [36] [37]
-
-LaTeX Warning: Reference `fig:MIFC' on page 38 undefined on input line 106.
-
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-[][][]\TU/EBGaramond(1)/m/n/10 This means the new Hamiltonian is turned on sign
-ificantly faster than all the inverse energy scales in the
+[46] [47]
+File: figures/ch2/heating_rates/ScatteringRatesv2edit.pdf Graphic file (type pd
+f)
+<use figures/ch2/heating_rates/ScatteringRatesv2edit.pdf>
+ [48] [49]
+File: figures/ch2/QGM/imaging_system_dmd_v2.pdf Graphic file (type pdf)
+<use figures/ch2/QGM/imaging_system_dmd_v2.pdf>
+ [50] [51]
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[][]\TU/EBGaramond(1)/bx/n/10 Note that this effective $\OT1/cmr/m/n/10 3$\TU/E
+BGaramond(1)/bx/n/10 -body interaction is what allows for the photon to impart 
+such a significant
  []
 
 
-Overfull \hbox (12.99394pt too wide) in paragraph at lines 115--116
-\TU/EBGaramond(1)/bx/n/10.95 Dirac scattering (cite gretchen campbell etc). Thi
-s method requires that the atoms have Bose-condensed 
- []
-
-[39]
-File: figures/ch2/kapitza_dirac_latt_depth/KDCal.pdf Graphic file (type pdf)
-<use figures/ch2/kapitza_dirac_latt_depth/KDCal.pdf>
- [40]
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-[][][]\TU/EBGaramond(1)/m/n/10 This is partially due to some of the systematic 
-biases in the lattice depth calibration that uses Kapitza-
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\TU/EBGaramond(1)/bx/n/10 amount of energy into the atoms as kinetic energy. In
+ a $\OT1/cmr/m/n/10 2$\TU/EBGaramond(1)/bx/n/10 -body scattering event between 
+the atom and the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\TU/EBGaramond(1)/m/n/10 Dirac scattering that limit the precision of the measu
-rement. However, the other issue is that the optical
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\TU/EBGaramond(1)/bx/n/10 photon, the atom only receives only a recoil of energ
+y from the photon changing momentum, but not wave-
+ []
+
+[52] [53]
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[][]\TU/EBGaramond(1)/bx/n/10 This means the new Hamiltonian is turned on signi
+ficantly faster than all the inverse energy scales in the
+ []
+
+[54]
+File: figures/ch2/kapitza_dirac_latt_depth/KDCalv2edit.pdf Graphic file (type p
+df)
+<use figures/ch2/kapitza_dirac_latt_depth/KDCalv2edit.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[][]\TU/EBGaramond(1)/bx/n/10 This is partially due to some of the systematic b
+iases in the lattice depth calibration that uses Kapitza-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\TU/EBGaramond(1)/m/n/10 lattices used in this apparatus have local variation i
-n disorder that can locally modify the tunneling strength
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+\TU/EBGaramond(1)/bx/n/10 Dirac scattering that limit the precision of the meas
+urement. However, the other issue is that the optical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OML/cmm/m/it/10 J$\TU/EBGaramond(1)/m/n/10 . Since the vast majority of experi
-ments in this system work with appreciably large-lattice depths and small
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+\TU/EBGaramond(1)/bx/n/10 lattices used in this apparatus have local variation 
+in disorder that can locally modify the tunneling strength
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[][][]\TU/EBGaramond(1)/m/n/10 This bound is determined by the Lieb-Robinson bo
-und, which for a single-atom in a lattice is deter-
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+\OML/cmm/m/it/10 J$\TU/EBGaramond(1)/bx/n/10 . Since the vast majority of exper
+iments in this system work with appreciably large-lattice depths and small
  []
 
-[41]
-File: figures/ch2/QW_cal/QWCal.pdf Graphic file (type pdf)
-<use figures/ch2/QW_cal/QWCal.pdf>
- [42]
-File: figures/ch2/E_U_cal/EUCal.pdf Graphic file (type pdf)
-<use figures/ch2/E_U_cal/EUCal.pdf>
-File: figures/ch2/E_U_cal/UCal.pdf Graphic file (type pdf)
-<use figures/ch2/E_U_cal/UCal.pdf>
+[55] [56]
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[][]\TU/EBGaramond(1)/bx/n/10 This bound is determined by the Lieb-Robinson veo
+locity, which for a single-atom in a lattice is deter-
+ []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43] [44] [45]
-File: figures/ch2/disorder_cal/WCal.pdf Graphic file (type pdf)
-<use figures/ch2/disorder_cal/WCal.pdf>
- [46]
-File: figures/ch2/heating_rates/ScatteringRatesCal.pdf Graphic file (type pdf)
-<use figures/ch2/heating_rates/ScatteringRatesCal.pdf>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [47] [48]
+File: figures/ch2/QW_cal/qw_fit_cal_v2_edit.pdf Graphic file (type pdf)
+<use figures/ch2/QW_cal/qw_fit_cal_v2_edit.pdf>
+[57]
+File: figures/ch2/E_U_cal/UCalv2edit.pdf Graphic file (type pdf)
+<use figures/ch2/E_U_cal/UCalv2edit.pdf>
+File: figures/ch2/E_U_cal/UCalv2edit.pdf Graphic file (type pdf)
+<use figures/ch2/E_U_cal/UCalv2edit.pdf>
+File: figures/ch2/E_U_cal/UCalv2edit.pdf Graphic file (type pdf)
+<use figures/ch2/E_U_cal/UCalv2edit.pdf>
+ [58]
+File: figures/ch2/E_U_cal/EUCalv2edit.pdf Graphic file (type pdf)
+<use figures/ch2/E_U_cal/EUCalv2edit.pdf>
+ [59]
+LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 5.66635pt on input line 216.
+LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 4.0474pt on input line 216.
+File: figures/ch2/disorder_cal/Wcalv2edit.pdf Graphic file (type pdf)
+<use figures/ch2/disorder_cal/Wcalv2edit.pdf>
+File: figures/ch2/disorder_cal/Wcalv2edit.pdf Graphic file (type pdf)
+<use figures/ch2/disorder_cal/Wcalv2edit.pdf>
+File: figures/ch2/disorder_cal/Wcalv2edit.pdf Graphic file (type pdf)
+<use figures/ch2/disorder_cal/Wcalv2edit.pdf>
+ [60] [61]
+File: figures/ch2/heating_rates/ScatteringRatesCalv2v2edit.pdf Graphic file (ty
+pe pdf)
+<use figures/ch2/heating_rates/ScatteringRatesCalv2v2edit.pdf>
+) [62] [63]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
@@ -1540,114 +1870,854 @@ Chapter 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 7.
 
-[49
+[64
 
 
 
-] [50] [51]
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[][][]\TU/EBGaramond(1)/m/n/10 In fact, a very common question typically asked 
-of any result from a quantum simulation experiment
+] [65]
+File: figures/ch3/qptv2edit.pdf Graphic file (type pdf)
+<use figures/ch3/qptv2edit.pdf>
+ [66] [67] [68]
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[][]\TU/EBGaramond(1)/bx/n/10 Conceptually, once this density matrix is written
+ down in the measurement basis, only the diagonals of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\TU/EBGaramond(1)/m/n/10 is how “quantum” are the results. As in, how uniquely 
-can the observed behavior be attributed to the sys-
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\TU/EBGaramond(1)/bx/n/10 this matrix are accessible to the observer since all 
+measurements involve a contraction with a given bra/ket-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\TU/EBGaramond(1)/m/n/10 tem being a quantum one and not just one, for example,
- described by a wave theory. The violation of Bell’s
+Overfull \hbox (4.01535pt too wide) in paragraph at lines 64--65
+[]\TU/EBGaramond(1)/bx/n/10.95 The diagonal of this matrix is simply the probab
+ility of a given state outcome, in this case either$\OT1/cmr/m/n/10.95 +\OML/cm
+m/m/it/10.95 z$ 
  []
 
-[52]
+[69] [70] [71]
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[][]\TU/EBGaramond(1)/bx/n/10 In fact, a very common question asked of any resu
+lt from a quantum simulation experiment is how
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\TU/EBGaramond(1)/bx/n/10 “quantum” are the results. As in, how uniquely can th
+e observed behavior be attributed to the system being
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\TU/EBGaramond(1)/bx/n/10 a quantum one and not just one, for example, describe
+d by a classical wave theory. The violation of Bell’s
+ []
+
+[72] [73]
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[][]\TU/EBGaramond(1)/bx/n/10 This naming convention can be a bit confusing but
+ is common. The statistical definition for a corre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/EBGaramond(1)/bx/n/10 lator is generically written as $[]$. This statistica
+l definition inherently removes both
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/EBGaramond(1)/bx/n/10 offsets in the single-point measurements, $\OMS/cmsy/
+m/n/10 h\OML/cmm/m/it/10 x\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10
+ h\OML/cmm/m/it/10 y\OMS/cmsy/m/n/10 i$ \TU/EBGaramond(1)/bx/n/10 and normalize
+s by dividing by the single-point variances.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/EBGaramond(1)/bx/n/10 In practice for the given Bell state above, this is n
+ot necessary since the state has unit fluctuations and is cen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\TU/EBGaramond(1)/bx/n/10 tered about zero. However, later on in this thesis th
+ese distinction will become important for distinguishing
+ []
+
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[][]\TU/EBGaramond(1)/bx/n/10 As a caveat, however, that should be mentioned he
+re is that this thought experiment exploits a property
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\TU/EBGaramond(1)/bx/n/10 of the particular Bell state chosen which is that it 
+is also an eigenstate of any global rotation. The experiment
+ []
+
+[75] [76] [77]
+File: figures/ch3/ven_diag_quantum.pdf Graphic file (type pdf)
+<use figures/ch3/ven_diag_quantum.pdf>
+File: figures/ch3/ven_diag_quantum.pdf Graphic file (type pdf)
+<use figures/ch3/ven_diag_quantum.pdf>
+File: figures/ch3/ven_diag_quantum.pdf Graphic file (type pdf)
+<use figures/ch3/ven_diag_quantum.pdf>
+
+Overfull \hbox (32.8675pt too wide) detected at line 221
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+[][]\TU/EBGaramond(1)/bx/n/10 This is diagonalization of the density matrix is 
+equivalent to determining the number of pure, many-
+ []
+
+[78] [79] [80]
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[][]\TU/EBGaramond(1)/bx/n/10 This was partially compounded in difficulty due t
+o the wide number of numerical metrics meant to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\TU/EBGaramond(1)/bx/n/10 quantify entanglement and the fact that the monogamy 
+of entanglement made many entanglement measures
+ []
+
+[81]
+File: figures/ch3/philipp_area_law_cartoon.pdf Graphic file (type pdf)
+<use figures/ch3/philipp_area_law_cartoon.pdf>
+File: figures/ch3/philipp_area_law_cartoon.pdf Graphic file (type pdf)
+<use figures/ch3/philipp_area_law_cartoon.pdf>
+File: figures/ch3/philipp_area_law_cartoon.pdf Graphic file (type pdf)
+<use figures/ch3/philipp_area_law_cartoon.pdf>
+
+Overfull \hbox (32.8675pt too wide) detected at line 254
+ [] 
+ []
+
+[82] [83] [84]
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+[][]\TU/EBGaramond(1)/bx/n/10 There is a common use of the phrase “strongly-cor
+related” when referring to the Mott-insulating state
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+\TU/EBGaramond(1)/bx/n/10 which would appear unjustified given the above descri
+ption. However, as a point of clarification, remember
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+\TU/EBGaramond(1)/bx/n/10 that the concept of entropy from entanglement is alwa
+ys with respect to a given partitioning of the system,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+\TU/EBGaramond(1)/bx/n/10 while, for any given partition, the metric is basis i
+nvariant. In the case of a Mott-insulator, any real-space
+ []
+
+[85]
 File: figures/ch3/sf_mi_data/fig5.pdf Graphic file (type pdf)
 <use figures/ch3/sf_mi_data/fig5.pdf>
+ [86] [87]
+File: figures/ch3/ising_data/AFM_ising_map.pdf Graphic file (type pdf)
+<use figures/ch3/ising_data/AFM_ising_map.pdf>
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[53]
-
-LaTeX Warning: Reference `fig:IsingMap' on page 54 undefined on input line 59.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[][][]\TU/EBGaramond(1)/m/n/10 The lower bound forgoes the contribution of seco
-nd-order hopping processes that incorporate states
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[][]\TU/EBGaramond(1)/bx/n/10 The lower bound forgoes the contribution of secon
+d-order hopping processes that incorporate states
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\TU/EBGaramond(1)/m/n/10 outside of the prescribed basis for a faithful mapping
- to the Ising model. This was found to be a necessary
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\TU/EBGaramond(1)/bx/n/10 outside of the prescribed basis for a faithful mappin
+g to the Ising model. This was found to be a necessary
  []
 
+[88] [89] [90]
+File: figures/ch3/ising_data/IsingN4N5Combo_2v2edit.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\TU/EBGaramond(1)/m/n/10 step since these second-order processes provided a non
--negligible fraction of population evolved into these
- []
-
-[54]
-File: figures/ch3/ising_data/IsingFig1.pdf Graphic file (type pdf)
-<use figures/ch3/ising_data/IsingFig1.pdf>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [55] [56]
+<use figures/ch3/ising_data/IsingN4N5Combo_2v2edit.pdf>
+ [91]
+File: figures/ch3/ising_data/SingleParamEdit_2v2edit.pdf Graphic file (type pdf
+)
+<use figures/ch3/ising_data/SingleParamEdit_2v2edit.pdf>
+ [92] [93]) [94]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\TU/EBGaramond(1)/m/it/10 The only problem with testing ETH is you need anoth
+er
+ []
+
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 7.
 
-[57
+[95
 
 
 
-]) [58]
+] [96]
+File: figures/ch4/fig1.pdf Graphic file (type pdf)
+<use figures/ch4/fig1.pdf>
+File: figures/ch4/fig1.pdf Graphic file (type pdf)
+<use figures/ch4/fig1.pdf>
+File: figures/ch4/fig1.pdf Graphic file (type pdf)
+<use figures/ch4/fig1.pdf>
+
+Overfull \hbox (30.4675pt too wide) detected at line 25
+ [] 
+ []
+
+[97] [98]
+File: figures/ch4/fig2_protocol.pdf Graphic file (type pdf)
+<use figures/ch4/fig2_protocol.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[][]\TU/EBGaramond(1)/bx/n/10 Conceptually, this single eigenstate acts as the 
+minimal version of a microcanonical ensemble and resem-
+ []
+
+[99]
+
+LaTeX Warning: Text page 100 contains only floats.
+
+
+Overfull \vbox (3.80678pt too high) has occurred while \output is active []
+
+
+[100] [101]
+File: figures/ch4/fig6_Ensemble_Figure.pdf Graphic file (type pdf)
+<use figures/ch4/fig6_Ensemble_Figure.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[][]\TU/EBGaramond(1)/bx/n/10 This wording is a bit confusing since a single ei
+genstate is by definition not an ensemble. However, we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\TU/EBGaramond(1)/bx/n/10 use this terminology to relate to the language of sta
+tistical mechanical ensembles in the limiting case that a
+ []
+
+[102] [103] [104]
+File: figures/ch4/fig3_ee_dynamics.pdf Graphic file (type pdf)
+<use figures/ch4/fig3_ee_dynamics.pdf>
+ [105] [106]
+File: figures/ch4/fig4_volumeLaw_edit.pdf Graphic file (type pdf)
+<use figures/ch4/fig4_volumeLaw_edit.pdf>
+ [107] [108] [109] [110]
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[][]\TU/EBGaramond(1)/bx/n/10 To put it bluntly, but not carefully, if the Univ
+erse were a non-integrable, interacting many-body quan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\TU/EBGaramond(1)/bx/n/10 tum system in an excited but pure state, we would sti
+ll realize a classical world on all practical human length
+ []
+
+) [111] [112]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]\TU/EBGaramond(1)/m/it/10 What is different between many-body localization an
+d
+ []
+
 Chapter 5.
-[59
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 18.
+
+[113
 
 
 
-]) [60]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[][]\TU/EBGaramond(1)/bx/n/10 In a classical sense, the thought would be that i
+nter-particle interactions would allow for ergodic ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\TU/EBGaramond(1)/bx/n/10 ploration of phase space since interactions would all
+ow the particles to exchange energy and eventually
+ []
+
+[114] [115]
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[][]\TU/EBGaramond(1)/bx/n/10 This is often called “quasi-periodic disorder” to
+ describe this distribution of offsets. While the function
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\TU/EBGaramond(1)/bx/n/10 is, of course, exactly periodic, its ratio is incomme
+nsurate with the physics lattice periodicity and hence any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\TU/EBGaramond(1)/bx/n/10 given on-site offset will never be resampled in the s
+ystem on any length scale. This intrinsic prevention of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\TU/EBGaramond(1)/bx/n/10 resampling adds inherent structure to the system that
+ lead to spatial correlations that should discourage one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\TU/EBGaramond(1)/bx/n/10 from thinking of it as truly “disorder” as investigat
+ed for the Anderson localization problem. However, for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\TU/EBGaramond(1)/bx/n/10 a practical comparison of both localizing phenomena, 
+it is the on-site potential that leads to localization and
+ []
+
+File: figures/ch5/combo_disorder.pdf Graphic file (type pdf)
+<use figures/ch5/combo_disorder.pdf>
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[][]\TU/EBGaramond(1)/bx/n/10 Any integer change of $\OML/cmm/m/it/10 ^^L$ \TU/
+EBGaramond(1)/bx/n/10 will realize an incommensurate potential that has the sam
+e on-site values with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\TU/EBGaramond(1)/bx/n/10 respect to the optical lattice periodicity. This allo
+ws for effectively decomposing an idealized incommensurate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\TU/EBGaramond(1)/bx/n/10 on-site offsets in a Fourier series to reduce all hig
+her order effects and realizes a step like change between sites.
+ []
+
+[117] [118]
+File: figures/ch5/MBL_dists_combo.pdf Graphic file (type pdf)
+<use figures/ch5/MBL_dists_combo.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[][]\TU/EBGaramond(1)/bx/n/10 This number differs from the measured in-situ occ
+upations of the unity-filling Mott-insulating shell.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+\TU/EBGaramond(1)/bx/n/10 However, this is largely due to the loss during imagi
+ng that reduces this on-site fidelity and is not due to
+ []
+
+[119]
+File: figures/ch5/figure2.pdf Graphic file (type pdf)
+<use figures/ch5/figure2.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[][]\TU/EBGaramond(1)/bx/n/10 The naive assumption would be that the non-disord
+ered regime should saturate in approximately a
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 85--85
+\TU/EBGaramond(1)/bx/n/10 single tunneling time $\OML/cmm/m/it/10 ^^\$\TU/EBGar
+amond(1)/bx/n/10 . However, the plot in Fig. [][]5.3[][]a curiously saturates f
+or this regime in $\OML/cmm/m/it/10 t \OMS/cmsy/m/n/10 ^^Y []\OML/cmm/m/it/10 ^
+^\$\TU/EBGaramond(1)/bx/n/10 . This is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\TU/EBGaramond(1)/bx/n/10 because of the fact that $\OML/cmm/m/it/10 J$ \TU/EBG
+aramond(1)/bx/n/10 is defined for the field of the wave function and has the sa
+me consequence in the
+ []
+
+[120] [121] [122]
+File: figures/ch5/G2Combo_Row_2edit.pdf Graphic file (type pdf)
+<use figures/ch5/G2Combo_Row_2edit.pdf>
+ [123]
+File: figures/ch5/figure3_editv2edit.pdf Graphic file (type pdf)
+<use figures/ch5/figure3_editv2edit.pdf>
+
+Overfull \hbox (2.74348pt too wide) in paragraph at lines 118--118
+|[]\TU/EBGaramond(1)/m/sc/12 Entanglement dynamics in an interacting, many-body
+ localized system| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[][]\TU/EBGaramond(1)/bx/n/10 Nearly all literature or researchers in this fiel
+d will exclude this “interacting” descriptor. Strictly speaking,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\TU/EBGaramond(1)/bx/n/10 a system of many, non-interacting bodies would also l
+ocalize (i.e. Anderson localization) and is the exact com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\TU/EBGaramond(1)/bx/n/10 parison given in Bardarson, \TU/EBGaramond(1)/m/it/10
+ et al.\TU/EBGaramond(1)/bx/n/10 . However, it is the fact that the many-bodies
+ interact at all that give rise to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[][]\TU/EBGaramond(1)/bx/n/10 An additional comment is that a significant disti
+nction here is that \TU/EBGaramond(1)/m/it/10 both \TU/EBGaramond(1)/bx/n/10 re
+gimes, delocalized and the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\TU/EBGaramond(1)/bx/n/10 localized, can be provably shown to be interacting on
+es. Non-interacting systems without disorder will be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\TU/EBGaramond(1)/bx/n/10 delocalized but are also strictly non-thermalizing sy
+stems: the energy per particle is an additional, extensive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\TU/EBGaramond(1)/bx/n/10 constraint on the system and once again realizes an i
+ntegrable system. Therefore, simply demonstrating
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\TU/EBGaramond(1)/bx/n/10 that a system delocalizes or localizes are \TU/EBGara
+mond(1)/m/it/10 in\TU/EBGaramond(1)/bx/n/10 sufficient observables – although t
+hey are considered to be neces-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\TU/EBGaramond(1)/bx/n/10 sary ingredients for thermalization and its breakdown
+, respectively. In a many-body localized system, it is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\TU/EBGaramond(1)/bx/n/10 the logarithmically slow entanglement growth that def
+ines the system as being localized in the presence of
+ []
+
+[124] [125] [126]
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[][]\TU/EBGaramond(1)/bx/n/10 In the single-site regime, each of these blocks $
+\OML/cmm/m/it/10 ^^Z[]$ \TU/EBGaramond(1)/bx/n/10 is reduced to containing only
+ a single state. Since this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\TU/EBGaramond(1)/bx/n/10 block has only one entry it cannot have any internal 
+coherences. Hence, measuring single-site occupation
+ []
+
+[127]
+File: figures/ch5/combo_sep_svn.pdf Graphic file (type pdf)
+<use figures/ch5/combo_sep_svn.pdf>
+ [128]
+Overfull \hbox (11.11548pt too wide) in paragraph at lines 160--160
+|[]\TU/EBGaramond(1)/m/sc/12 Phenomenological description of localized orbitals
+: non-interacting| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[][]\TU/EBGaramond(1)/bx/n/10 This concept is intentionally presented to be sim
+ilar to populating local local Wannier functions in a
+ []
+
+[129]
+Overfull \hbox (30.7527pt too wide) in paragraph at lines 176--177
+\TU/EBGaramond(1)/bx/n/10.95 these sites and enables these orbitals to be const
+ructed such that they are orthogonal $[]$. 
+ []
+
+
+Overfull \hbox (15.39561pt too wide) in paragraph at lines 176--177
+\TU/EBGaramond(1)/bx/n/10.95 In the Anderson localized case, the exponentially 
+localized particles are eigenstates of the non-interacting 
+ []
+
+[130]
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/itsc' will be
+(Font)              scaled to size 12.0pt on input line 203.
+ [131]
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[][]\TU/EBGaramond(1)/bx/n/10 They may need to be considered in terms of findin
+g the correct quantitative values for the dynamics of a
+ []
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 219.
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\TU/EBGaramond(1)/bx/n/10 states that are hybridized by the interactions $[]$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\TU/EBGaramond(1)/bx/n/10 The new localized quantities will share atoms from th
+ese original non-interacting orbitals and make it difficult
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\TU/EBGaramond(1)/bx/n/10 to directly compose in these non-interacting terms. A
+lthough, they will appear relatively close if only looking
+ []
+
+[132] [133]
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+[][]\TU/EBGaramond(1)/bx/n/10 Strictly speaking, the “l-bit” (localized bit) pi
+cture from spins is somewhat inadequate since the on-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+\TU/EBGaramond(1)/bx/n/10 site degree of freedom in the Bose-Hubbard case can t
+ake on more than two values. This is why an attempt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+\TU/EBGaramond(1)/bx/n/10 at a modification to this picture has been added abov
+e for the population of these localized orbitals with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+\TU/EBGaramond(1)/bx/n/10 a creation operator $\OMS/cmsy/m/n/10 L[]$ \TU/EBGara
+mond(1)/bx/n/10 where multiple on-site occupations can apply. The additional tr
+anslation of this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+\TU/EBGaramond(1)/bx/n/10 model is that the “p-bits” (physical bits) are now de
+fined as the bare on-site occupation basis given by cre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+\TU/EBGaramond(1)/bx/n/10 ation operators $[]$. Lastly, the original “l-bit” pi
+cture, as written for spins, is that quasi-local operators
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+\TU/EBGaramond(1)/bx/n/10 are defined as to be comprised of eigenstates that co
+mmute with a product of local Pauli operators (e.g.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+\OML/cmm/m/it/10 :::I[]^^[[]^^[[]^^[[]I[]:::$\TU/EBGaramond(1)/bx/n/10 ) in the
+ “p-bit” basis. However, it should be repeated once more that this is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+\TU/EBGaramond(1)/bx/n/10 purely a phenomenological picture to help with intuit
+ively writing down a mathematical description of the
+ []
+
+[134]
+File: figures/ch5/figure1.pdf Graphic file (type pdf)
+<use figures/ch5/figure1.pdf>
+File: figures/ch5/figure1.pdf Graphic file (type pdf)
+<use figures/ch5/figure1.pdf>
+File: figures/ch5/figure1.pdf Graphic file (type pdf)
+<use figures/ch5/figure1.pdf>
+
+Overfull \hbox (28.06749pt too wide) detected at line 247
+ [] 
+ []
+
+[135]
+File: figures/ch5/CAB_SC_Row_ins_2.pdf Graphic file (type pdf)
+<use figures/ch5/CAB_SC_Row_ins_2.pdf>
+ [136] [137]
+File: figures/ch5/figure4_raw.pdf Graphic file (type pdf)
+<use figures/ch5/figure4_raw.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+[][]\TU/EBGaramond(1)/bx/n/10 This volume-law scaling of the configurational co
+rrelations, and therefore the von Neumann entropy, is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+\TU/EBGaramond(1)/bx/n/10 a result of the unitary dynamics in the system. In fa
+ct, each individual eigenstate in the MBL system actually
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+\TU/EBGaramond(1)/bx/n/10 only harbors area-law entanglement. It is the unitary
+ evolution of a superposition of many MBL eigenstates
+ []
+
+[138]
+File: figures/ch5/figure5_edit.pdf Graphic file (type pdf)
+<use figures/ch5/figure5_edit.pdf>
+ [139]
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+[][]\TU/EBGaramond(1)/bx/n/10 We find the correct height of the confining walls
+ by determining the optical potential power that retains
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+\TU/EBGaramond(1)/bx/n/10 all atoms at early times after performing a hard quen
+ch without disorder such that we should populate many
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+\TU/EBGaramond(1)/bx/n/10 excited eigenstates. This power is then increased by 
+approximately a factor of two that still prevents us from
+ []
+
+[140] [141]
+File: figures/ch5/decoherePlot.pdf Graphic file (type pdf)
+<use figures/ch5/decoherePlot.pdf>
+ [142]
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[][]\TU/EBGaramond(1)/bx/n/10 This refers to the phase information in the super
+position of local “l-bit” creation operators immediately
+ []
+
+[143]) [144]
 \openout2 = `chapters/chapter6.aux'.
 
  (./chapters/chapter6.tex
 Chapter 6.
-) [61
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[][]\TU/EBGaramond(1)/bx/n/10 There are many theoretical proposals for this cri
+tical behavior that do not use exact diagonalization, but
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\TU/EBGaramond(1)/bx/n/10 the validity of their results is unknown without eith
+er comparison to exact diagonalization or experimental
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[][]\TU/EBGaramond(1)/bx/n/10 Additional estimates of evolution time can be mad
+e from using the spontaneous scattering rate measure-
+ []
+
+[145
 
 
 
-] [62]
-\openout2 = `chapters/chapter7.aux'.
+] [146] [147]
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[][]\TU/EBGaramond(1)/bx/n/10 However, one might consider that all phase transi
+tions are eigenstate transitions and equilibrium quan-
+ []
 
- (./chapters/chapter7.tex
-Chapter 7.
-) [63
+File: figures/ch3/qpt_2.pdf Graphic file (type pdf)
+<use figures/ch3/qpt_2.pdf>
+[148] [149]
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[][]\TU/EBGaramond(1)/bx/n/10 This term additionally covers another class of “d
+ynamical phase transitions” that are qualitatively differ-
+ []
+
+File: figures/ch6/excited_eig_qpt.pdf Graphic file (type pdf)
+<use figures/ch6/excited_eig_qpt.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[][]\TU/EBGaramond(1)/bx/n/10 This level repulsion is nothing other than avoide
+d level crossing in a two-level system when they are
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\TU/EBGaramond(1)/bx/n/10 generically coupled by some parameter. For these ther
+malizing systems this applies generically between almost
+ []
 
-]
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\TU/EBGaramond(1)/bx/n/10 any two eigenstates since they are constructed out a 
+nearly ergodic superposition of states that are constrained
+ []
+
+[150] [151] [152] [153] [154]
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[][]\TU/EBGaramond(1)/bx/n/10 Since the particles harbor repulsive interactions
+, high on-site occupancy costs more injected energy.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\TU/EBGaramond(1)/bx/n/10 Therefore by injecting a finite amount of energy only
+ favors lower on-site occupations and effectively appears
+ []
+
+[155] [156]
+File: figures/ch6/XiLenComp.pdf Graphic file (type pdf)
+<use figures/ch6/XiLenComp.pdf>
+File: figures/ch6/XiLenComp.pdf Graphic file (type pdf)
+<use figures/ch6/XiLenComp.pdf>
+File: figures/ch6/XiLenComp.pdf Graphic file (type pdf)
+<use figures/ch6/XiLenComp.pdf>
+
+Overfull \hbox (28.06749pt too wide) detected at line 125
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\TU/EBGaramond(1)/bx/n/10 ever, finite size effects limit both our experiment a
+nd numerical simulations which attempt to probe this
+ []
+
+[157]
+File: figures/ch6/fig2a.pdf Graphic file (type pdf)
+<use figures/ch6/fig2a.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[][]\TU/EBGaramond(1)/bx/n/10 This, however, only demonstrates that the $\OML/c
+mm/m/it/10 L$\TU/EBGaramond(1)/bx/n/10 =$\OT1/cmr/m/n/10 8$ \TU/EBGaramond(1)/b
+x/n/10 system is critically sub-thermal for the intermediate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\TU/EBGaramond(1)/bx/n/10 disorder regime and continues to thermalize in the pr
+esence of a larger system. Without having any other
+ []
+
+[158] [159] [160]
+File: figures/ch6/combo_fluc.pdf Graphic file (type pdf)
+<use figures/ch6/combo_fluc.pdf>
+File: figures/ch6/combo_fluc.pdf Graphic file (type pdf)
+<use figures/ch6/combo_fluc.pdf>
+File: figures/ch6/combo_fluc.pdf Graphic file (type pdf)
+<use figures/ch6/combo_fluc.pdf>
+
+Overfull \hbox (47.32237pt too wide) detected at line 168
+ [] 
+ []
+
+[161]
+File: figures/ch6/fig3.pdf Graphic file (type pdf)
+<use figures/ch6/fig3.pdf>
+File: figures/ch6/fig3.pdf Graphic file (type pdf)
+<use figures/ch6/fig3.pdf>
+File: figures/ch6/fig3.pdf Graphic file (type pdf)
+<use figures/ch6/fig3.pdf>
+
+Overfull \hbox (32.8675pt too wide) detected at line 178
+ [] 
+ []
+
+[162] [163]
+File: figures/ch6/fig2b.pdf Graphic file (type pdf)
+<use figures/ch6/fig2b.pdf>
+
+Overfull \hbox (1.24825pt too wide) in paragraph at lines 202--203
+\TU/EBGaramond(1)/bx/n/10.95 correlations involve correlated hopping of at leas
+t two particles, they are a signature for multi-particle 
+ []
+
+[164] [165]
+File: figures/ch6/fig4.pdf Graphic file (type pdf)
+<use figures/ch6/fig4.pdf>
+ [166] [167]) [168]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
-Chapter 8.
-) [64
+Chapter 7.
+[169
 
 
 
-]
+] [170] [171]
+File: figures/ch7/bath_thermal/BathSSFig.pdf Graphic file (type pdf)
+<use figures/ch7/bath_thermal/BathSSFig.pdf>
+File: figures/ch7/bathfig.pdf Graphic file (type pdf)
+<use figures/ch7/bathfig.pdf>
+ [172]
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[][]\TU/EBGaramond(1)/bx/n/10 Griffiths regions often refer to a rare region of
+ anomalously large disorder that acts like a bottle neck for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\TU/EBGaramond(1)/bx/n/10 hindering the spread of information in a system. Thes
+e regions will exist in large random-disorder systems
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\TU/EBGaramond(1)/bx/n/10 due the stochastic likelihood of sampling several sig
+nificantly different on-site potential values that are also
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\TU/EBGaramond(1)/bx/n/10 neighboring in space. However, in this case I am refe
+rring to the opposite likelihood of sampling very sim-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\TU/EBGaramond(1)/bx/n/10 ilar values for on-site potential values for neighbor
+ing sites in space that would allow for anomalously low
+ []
+
+[173] [174]
+File: figures/ch7/hamming_dist_fig.pdf Graphic file (type pdf)
+<use figures/ch7/hamming_dist_fig.pdf>
+ [175]
+File: figures/ch7/hamming_dist_slopes_fig.pdf Graphic file (type pdf)
+<use figures/ch7/hamming_dist_slopes_fig.pdf>
+ [176]) [177]
 \openout2 = `chapters/appendAtomProp.aux'.
 
  (./chapters/appendAtomProp.tex
@@ -1664,46 +2734,168 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 9.
 
-) [65
+[178
 
 
 
 ]
+File: figures/ap1/SteckTable12.pdf Graphic file (type pdf)
+<use figures/ap1/SteckTable12.pdf>
+File: figures/ap1/SteckTable34.pdf Graphic file (type pdf)
+<use figures/ap1/SteckTable34.pdf>
+File: figures/ap1/SteckTableD1.pdf Graphic file (type pdf)
+<use figures/ap1/SteckTableD1.pdf>
+File: figures/ap1/SteckTableD2.pdf Graphic file (type pdf)
+<use figures/ap1/SteckTableD2.pdf>
+) [179]
+
+LaTeX Warning: Text page 180 contains only floats.
+
+[180] [181] [182]
 \openout2 = `chapters/appendNumerics.aux'.
 
  (./chapters/appendNumerics.tex
 Appendix B.
-) [66
+) [183
 
 
 
 ]
+\openout2 = `chapters/appendSequences.aux'.
+
+ (./chapters/appendSequences.tex
+Appendix C.
+[184
+
+
+
+]
+File: figures/ch4/sequence_eth_v4.pdf Graphic file (type pdf)
+<use figures/ch4/sequence_eth_v4.pdf>
+ [185]
+File: figures/ch5/sequence_MBL.pdf Graphic file (type pdf)
+<use figures/ch5/sequence_MBL.pdf>
+) [186]
 \openout2 = `chapters/appendCh1.aux'.
 
  (./chapters/appendCh1.tex
-Appendix C.
-[67
+Appendix D.
+[187
 
 
 
-]) [68]
+] [188]) [189]
 \openout2 = `chapters/appendCh2.aux'.
 
  (./chapters/appendCh2.tex
-Appendix D.
-) [69
+Appendix E.
+[190
 
 
 
-] (./endmatter/personalize.tex) (./dissertation.bbl) [70
+] [191]
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[][]\TU/EBGaramond(1)/bx/n/10 We have assumed a phase of zero at x=0 for these 
+beams since the fields are written as just the square
+ []
+
+[192] [193] [194]) [195] [196]
+\openout2 = `chapters/appendCh3.aux'.
+
+ (./chapters/appendCh3.tex
+Appendix F.
+[197
 
 
 
-]
+]) [198]
+\openout2 = `chapters/appendCh4.aux'.
+
+ (./chapters/appendCh4.tex
+Appendix G.
+[199
+
+
+
+] [200] [201] [202] [203] [204]) [205]
+\openout2 = `chapters/appendCh5.aux'.
+
+ (./chapters/appendCh5.tex
+Appendix H.
+[206
+
+
+
+] [207]) [208]
+\openout2 = `chapters/appendCh6.aux'.
+
+ (./chapters/appendCh6.tex
+Appendix I.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 12.
+
+File: figures/ch6/logFit.pdf Graphic file (type pdf)
+<use figures/ch6/logFit.pdf>
+[209
+
+
+
+] [210]
+File: figures/ch6/figS6/RStat.pdf Graphic file (type pdf)
+<use figures/ch6/figS6/RStat.pdf>
+File: figures/ch6/figS6/RStat.pdf Graphic file (type pdf)
+<use figures/ch6/figS6/RStat.pdf>
+File: figures/ch6/figS6/RStat.pdf Graphic file (type pdf)
+<use figures/ch6/figS6/RStat.pdf>
+
+Overfull \hbox (30.46748pt too wide) detected at line 30
+ [] 
+ []
+
+
+Overfull \hbox (32.28717pt too wide) in paragraph at lines 33--34
+\TU/EBGaramond(1)/bx/n/10.95 malizing to many-body-localized behavior. This rat
+io is defined as $\OML/cmm/m/it/10.95 r \OMS/cmsy/m/n/10.95 ^^Q []f\OT1/cmr/m/n
+/10.95 ^^A[]\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 ^^A[]\OMS/cmsy/m/n/10.95 g
+\OML/cmm/m/it/10.95 =[]\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 ^^A[]\OML/cmm/m/
+it/10.95 ; \OT1/cmr/m/n/10.95 ^^A[]\OMS/cmsy/m/n/10.95 g$\TU/EBGaramond(1)/bx/n
+/10.95 , 
+ []
+
+[211]
+File: figures/ch6/figS5/IntegralPlotv2.pdf Graphic file (type pdf)
+<use figures/ch6/figS5/IntegralPlotv2.pdf>
+File: figures/ch6/figS5/IntegralPlotv2.pdf Graphic file (type pdf)
+<use figures/ch6/figS5/IntegralPlotv2.pdf>
+File: figures/ch6/figS5/IntegralPlotv2.pdf Graphic file (type pdf)
+<use figures/ch6/figS5/IntegralPlotv2.pdf>
+
+Overfull \hbox (30.46748pt too wide) detected at line 49
+ [] 
+ []
+
+[212] [213] [214]
+File: figures/ch6/fig2v4_a.pdf Graphic file (type pdf)
+<use figures/ch6/fig2v4_a.pdf>
+) [215] (./endmatter/personalize.tex) (./dissertation.bbl
+[216
+
+
+
+] [217] [218] [219] [220] [221] [222] [223] [224] [225] [226] [227]
+[228] [229] [230] [231]) [232]
 \openout2 = `endmatter/colophon.aux'.
 
-
-(./endmatter/colophon.tex
+ (./endmatter/colophon.tex
 File: endmatter/colophon.png Graphic file (type bmp)
 <endmatter/colophon.png>
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
@@ -1780,40 +2972,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
 \TU/EBGaramond(1)/bx/n/10.95 from its lead author, Jordan Suchow, at [][]su-
  []
 
-) [71
+) [233
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (./dissertation.aux (./chapters/introduction.aux)
 (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
 (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux)
-(./chapters/chapter7.aux) (./chapters/conclusion.aux)
-(./chapters/appendAtomProp.aux) (./chapters/appendNumerics.aux)
-(./chapters/appendCh1.aux) (./chapters/appendCh2.aux) (./endmatter/colophon.aux
-))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 48.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+(./chapters/conclusion.aux) (./chapters/appendAtomProp.aux)
+(./chapters/appendNumerics.aux) (./chapters/appendSequences.aux)
+(./chapters/appendCh1.aux) (./chapters/appendCh2.aux) (./chapters/appendCh3.aux
+) (./chapters/appendCh4.aux) (./chapters/appendCh5.aux)
+(./chapters/appendCh6.aux) (./endmatter/colophon.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 8B4332961BAA54E8B6C3AD7945C82AA5.
+(rerunfilecheck)             Checksum: 859D3F7F3EC4B1B417C4DC4B19D7F2ED.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24583 strings out of 492970
- 462280 string characters out of 6133938
- 609038 words of memory out of 5000000
- 28164 multiletter control sequences out of 15000+600000
- 545194 words of font info for 119 fonts, out of 8000000 for 9000
+ 26752 strings out of 492970
+ 498591 string characters out of 6133938
+ 714573 words of memory out of 5000000
+ 30227 multiletter control sequences out of 15000+600000
+ 545234 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,12n,118p,10470b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,12n,118p,10470b,867s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (78 pages).
+Output written on dissertation.pdf (249 pages).

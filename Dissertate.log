@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAR 2019 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 MAY 2019 12:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -34,61 +34,31 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count89
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/03/24 v5.7 Page Geometry
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count90
-\Gm@cntv=\count91
-\c@Gm@tempcnt=\count92
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks15
-)
-
-./Dissertate.cls:66: LaTeX Error: \usepackage before \documentclass.
+./Dissertate.cls:24: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \usepackage{
-                 ragged2e}
+l.24 \usepackage{
+                 floatrow}
 ? 
-./Dissertate.cls:66: Emergency stop.
+./Dissertate.cls:24: Emergency stop.
  ...                                              
                                                   
-l.66 \usepackage{
-                 ragged2e}
+l.24 \usepackage{
+                 floatrow}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
  
 Here is how much of TeX's memory you used:
- 1068 strings out of 492649
- 14118 string characters out of 6129622
- 79627 words of memory out of 5000000
- 5017 multiletter control sequences out of 15000+600000
+ 532 strings out of 492649
+ 6138 string characters out of 6129622
+ 69068 words of memory out of 5000000
+ 4500 multiletter control sequences out of 15000+600000
  3938 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,0n,19p,775b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-./Dissertate.cls:66:  ==> Fatal error occurred, no output PDF file produced!
+ 22i,0n,19p,796b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+./Dissertate.cls:24:  ==> Fatal error occurred, no output PDF file produced!

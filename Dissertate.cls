@@ -21,7 +21,7 @@
 % Options
 %
 \RequirePackage{etoolbox}
-
+\usepackage{floatrow}
 % Line spacing: dsingle/ddouble
 %   Whether to use single- or doublespacing.
 \newtoggle{DissertateSingleSpace}
@@ -82,6 +82,7 @@
 \usepackage{hyperref}
 \RequirePackage{url}
 \RequirePackage{amssymb}
+\usepackage{amsmath}
 \RequirePackage{mathspec}
 %\setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
 %\setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{Latin Modern Math}
@@ -209,7 +210,7 @@
 	\maketitle
 	\copyrightpage
 	\abstractpage
-    \contentspage
+        \contentspage
 	% \listoffigures % optional
 	\dedicationpage
 	\acknowledgments
@@ -300,17 +301,32 @@
     \begin{appendices}
         \include{chapters/appendAtomProp}
         \include{chapters/appendNumerics}
+        \include{chapters/appendSequences}
         \include{chapters/appendCh1}
         \include{chapters/appendCh2}
+        \include{chapters/appendCh3}
+        \include{chapters/appendCh4}
+        \include{chapters/appendCh5}
+        \include{chapters/appendCh6}
+
 
 
     \end{appendices}
+    
     \input{endmatter/personalize}
+    
     \clearpage
+    
     \begin{spacing}{\dcompressedspacing}
         \bibliography{references}
-        \addcontentsline{toc}{chapter}{References}
+        \addcontentsline{toc}{chapter}{references}
         \bibliographystyle{apalike2}
         \include{endmatter/colophon}
     \end{spacing}
 }
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\usepackage[perpage]{footmisc}
+%\usepackage{perpage} %the perpage package
+%\MakePerPage{footnote}

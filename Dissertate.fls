@@ -1,0 +1,14 @@
+PWD /Users/matthewrispoli/Dropbox/Dissertate-Harvard-LaTeX
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT Dissertate.cls
+OUTPUT Dissertate.log
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
