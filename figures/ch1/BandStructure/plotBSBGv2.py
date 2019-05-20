@@ -128,62 +128,62 @@ dpth3=80+3
 
 fig = plt.figure(figsize=(2*1.618*4,1*4))
 #fig = plt.figure(figsize=(6.5,3))
-
-ax161 = fig.add_subplot(161, aspect='0.06')
-
-ax161.plot(qs,BS0[dpth1,::]+VoN[dpth1]/2, color = band0Clr, label = 'n = 0')
-#ax161.fill_between(qs, BS0[dpth1,::]+VoN[dpth1]/2, \
-#                 BS1[dpth1,::]+VoN[dpth1]/2, \
-#                 color = blendClr(matica97E,clrWhite,0.35), \
-#                 zorder = -3)
-ax161.plot(qs,BS1[dpth1,::]+VoN[dpth1]/2, color = band1Clr, label = 'n = 1')
-#ax161.fill_between(qs, BS1[dpth1,::]+VoN[dpth1]/2, \
-#                 BS2[dpth1,::]+VoN[dpth1]/2, \
-#                 color = blendClr(matica97F,clrWhite,0.35), \
-#                 zorder = -3)
-ax161.plot(qs,BS2[dpth1,::]+VoN[dpth1]/2, color = band2Clr, label = 'n = 2')
-#ax161.fill_between(qs, BS2[dpth1,::]+VoN[dpth1]/2, \
-#                 BS3[dpth1,::]+VoN[dpth1]/2, \
-#                 color = blendClr(matica97I,clrWhite,0.35), \
-#                 zorder = -3)
-ax161.plot(qs,BS3[dpth1,::]+VoN[dpth1]/2, color = band3Clr, label = 'n = 3')
-ax161.plot(qs,BS4[dpth1,::]+VoN[dpth1]/2, color = band4Clr, label = 'n = 4')
-ax161.plot(qs,BS5[dpth1,::]+VoN[dpth1]/2, color = band5Clr, label = 'n = 5')
-ax161.plot(qs,np.ones(qs.shape)*VoN[dpth1],ls='--',color = 'gray')
-ax161.set_ylim((0,30))
-ax161.set_xlim((-0.5,0.5))
-ax161.set_yticks(np.linspace(0,30,5))
-ax161.set_ylabel('Energy (Er)')
-ax161.set_xlabel('q')
-ax161.set_title(str(VoN[dpth1])+' Er')
-#ax161.legend(frameon=False)
-
-ax162 = fig.add_subplot(162, aspect='0.06')
-
-ax162.plot(qs,BS0[dpth2,::]+VoN[dpth2]/2, color = band0Clr)
-ax162.plot(qs,BS1[dpth2,::]+VoN[dpth2]/2, color = band1Clr)
-ax162.plot(qs,BS2[dpth2,::]+VoN[dpth2]/2, color = band2Clr)
-ax162.plot(qs,BS3[dpth2,::]+VoN[dpth2]/2, color = band3Clr)
-ax162.plot(qs,BS4[dpth2,::]+VoN[dpth2]/2, color = band4Clr)
-ax162.plot(qs,np.ones(qs.shape)*VoN[dpth2],ls='--',color = 'gray')
-ax162.set_ylim((0,30))
-ax162.set_xlim((-0.5,0.5))
-ax162.set_yticks([])
-ax162.set_xlabel('q')
-ax162.set_title(str(VoN[dpth2])+' Er')
-
-ax163 = fig.add_subplot(163, aspect='0.06')
-
-ax163.plot(qs,BS0[dpth3,::]+VoN[dpth3]/2, color = band0Clr)
-ax163.plot(qs,BS1[dpth3,::]+VoN[dpth3]/2, color = band1Clr)
-ax163.plot(qs,BS2[dpth3,::]+VoN[dpth3]/2, color = band2Clr)
-ax163.plot(qs,BS3[dpth3,::]+VoN[dpth3]/2, color = band3Clr)
-ax163.plot(qs,np.ones(qs.shape)*VoN[dpth3],ls='--',color = 'gray')
-ax163.set_ylim((0,30))
-ax163.set_xlim((-0.5,0.5))
-ax163.set_yticks([])
-ax163.set_xlabel('q')
-ax163.set_title(str(VoN[dpth3])+' Er')
+#
+#ax161 = fig.add_subplot(161, aspect='0.06')
+#
+#ax161.plot(qs,BS0[dpth1,::]+VoN[dpth1]/2, color = band0Clr, label = 'n = 0')
+##ax161.fill_between(qs, BS0[dpth1,::]+VoN[dpth1]/2, \
+##                 BS1[dpth1,::]+VoN[dpth1]/2, \
+##                 color = blendClr(matica97E,clrWhite,0.35), \
+##                 zorder = -3)
+#ax161.plot(qs,BS1[dpth1,::]+VoN[dpth1]/2, color = band1Clr, label = 'n = 1')
+##ax161.fill_between(qs, BS1[dpth1,::]+VoN[dpth1]/2, \
+##                 BS2[dpth1,::]+VoN[dpth1]/2, \
+##                 color = blendClr(matica97F,clrWhite,0.35), \
+##                 zorder = -3)
+#ax161.plot(qs,BS2[dpth1,::]+VoN[dpth1]/2, color = band2Clr, label = 'n = 2')
+##ax161.fill_between(qs, BS2[dpth1,::]+VoN[dpth1]/2, \
+##                 BS3[dpth1,::]+VoN[dpth1]/2, \
+##                 color = blendClr(matica97I,clrWhite,0.35), \
+##                 zorder = -3)
+#ax161.plot(qs,BS3[dpth1,::]+VoN[dpth1]/2, color = band3Clr, label = 'n = 3')
+#ax161.plot(qs,BS4[dpth1,::]+VoN[dpth1]/2, color = band4Clr, label = 'n = 4')
+#ax161.plot(qs,BS5[dpth1,::]+VoN[dpth1]/2, color = band5Clr, label = 'n = 5')
+#ax161.plot(qs,np.ones(qs.shape)*VoN[dpth1],ls='--',color = 'gray')
+#ax161.set_ylim((0,30))
+#ax161.set_xlim((-0.5,0.5))
+#ax161.set_yticks(np.linspace(0,30,5))
+#ax161.set_ylabel('Energy (Er)')
+#ax161.set_xlabel('q')
+#ax161.set_title(str(VoN[dpth1])+' Er')
+##ax161.legend(frameon=False)
+#
+#ax162 = fig.add_subplot(162, aspect='0.06')
+#
+#ax162.plot(qs,BS0[dpth2,::]+VoN[dpth2]/2, color = band0Clr)
+#ax162.plot(qs,BS1[dpth2,::]+VoN[dpth2]/2, color = band1Clr)
+#ax162.plot(qs,BS2[dpth2,::]+VoN[dpth2]/2, color = band2Clr)
+#ax162.plot(qs,BS3[dpth2,::]+VoN[dpth2]/2, color = band3Clr)
+#ax162.plot(qs,BS4[dpth2,::]+VoN[dpth2]/2, color = band4Clr)
+#ax162.plot(qs,np.ones(qs.shape)*VoN[dpth2],ls='--',color = 'gray')
+#ax162.set_ylim((0,30))
+#ax162.set_xlim((-0.5,0.5))
+#ax162.set_yticks([])
+#ax162.set_xlabel('q')
+#ax162.set_title(str(VoN[dpth2])+' Er')
+#
+#ax163 = fig.add_subplot(163, aspect='0.06')
+#
+#ax163.plot(qs,BS0[dpth3,::]+VoN[dpth3]/2, color = band0Clr)
+#ax163.plot(qs,BS1[dpth3,::]+VoN[dpth3]/2, color = band1Clr)
+#ax163.plot(qs,BS2[dpth3,::]+VoN[dpth3]/2, color = band2Clr)
+#ax163.plot(qs,BS3[dpth3,::]+VoN[dpth3]/2, color = band3Clr)
+#ax163.plot(qs,np.ones(qs.shape)*VoN[dpth3],ls='--',color = 'gray')
+#ax163.set_ylim((0,30))
+#ax163.set_xlim((-0.5,0.5))
+#ax163.set_yticks([])
+#ax163.set_xlabel('q')
+#ax163.set_title(str(VoN[dpth3])+' Er')
 
 
 #ax2 = fig.add_subplot(122, aspect='2.3176')
@@ -245,50 +245,13 @@ ax2.set_ylim((0,16))
 
 ax2.set_xlabel('Lattice Depth (Er)')
 ax2.set_ylabel('Direct Band Gap (Er)')
-ax2.legend(frameon=False, loc=(0))
+#ax2.legend(frameon=False, loc=(0))
+ax2.legend(frameon=False, loc=(0.025,-0.275), ncol=4)
 #plt.semilogy(VoN,BW3)
 #plt.Axes.set_xticks(np.linspace(0,45,10))
 
-kmid=32
-klast=63
-
-style="Simple,tail_width=1,head_width=5,head_length=6"
-bg1 = dict(arrowstyle=style, color=matica97E)
-
-a2 = patches.FancyArrowPatch((0,BS0[dpth3,kmid]+1+VoN[dpth3]/2.0), (0,BS1[dpth3,kmid]+VoN[dpth3]/2.0), \
-                             connectionstyle="arc3,rad=0", \
-                             **bg1)
-a3 = patches.FancyArrowPatch((0,BS1[dpth3,kmid]-1+VoN[dpth3]/2.0),(0,BS0[dpth3,kmid]+VoN[dpth3]/2.0), \
-                             connectionstyle="arc3,rad=0", \
-                             **bg1)
-ax163.add_patch(a2)
-ax163.add_patch(a3)
-
-bg2 = dict(arrowstyle=style, color=matica97F)
-
-a2 = patches.FancyArrowPatch((0,BS1[dpth3,kmid]+1+VoN[dpth3]/2.0), (0,BS2[dpth3,kmid]+VoN[dpth3]/2.0), \
-                             connectionstyle="arc3,rad=0", \
-                             **bg2)
-a3 = patches.FancyArrowPatch((0,BS2[dpth3,kmid]-1+VoN[dpth3]/2.0),(0,BS1[dpth3,kmid]+VoN[dpth3]/2.0), \
-                             connectionstyle="arc3,rad=0", \
-                             **bg2)
-ax163.add_patch(a2)
-ax163.add_patch(a3)
 
 
-bg3 = dict(arrowstyle=style, color=matica97I)
-
-a2 = patches.FancyArrowPatch((0,BS2[dpth3,kmid]+1+VoN[dpth3]/2), (0,BS3[dpth3,kmid]+VoN[dpth3]/2), \
-                             connectionstyle="arc3,rad=0", \
-                             **bg3)
-a3 = patches.FancyArrowPatch((0,BS3[dpth3,kmid]-1+VoN[dpth3]/2),(0,BS2[dpth3,kmid]+VoN[dpth3]/2), \
-                             connectionstyle="arc3,rad=0", \
-                             **bg3)
-ax163.add_patch(a2)
-ax163.add_patch(a3)
-
-plt.savefig('BSScale.pdf')
-plt.show()
 
 #fig2 = plt.figure()
 #axbw = fig2.add_subplot(121, aspect='auto')  
@@ -321,7 +284,7 @@ plt.show()
 
 axbs_alpha=0.7
 
-fig3 = plt.figure()
+#fig3 = plt.figure()
 axbs = fig.add_subplot(121, aspect='auto')  
 
 offV = -VoN/2
@@ -388,13 +351,124 @@ axbs.plot(VoN,VoN/2 - offV, ls='--', color = 'gray', zorder = -1, label = 'Latti
 axbs.plot(VoN,-VoN/2 - offV, ls='--', color = 'gray', zorder = -1)#/BW3[0])
 axbs.fill_between(VoN, -VoN/2 - offV, VoN/2 - offV, \
                  color = 'gray', \
-                 alpha = 0.05, \
+                 alpha = 0.1, \
                  zorder = -2)
 
 axbs.set_xlim([0.1, 50])
 axbs.set_ylim([-1, 45])
-#axbs.set_xticks(np.linspace(0,100,11))
+axbs.set_xticks(np.linspace(0,50,11))
 axbs.set_xscale('linear')
 axbs.set_yscale('linear')
+axbs.set_ylabel('Energy (Er)')
+axbs.set_xlabel('Lattice Depth (Er)')
 #legend(frameon=False, loc=(0))
-axbs.legend(frameon=False, loc=(0,-0.3), ncol=8)
+axbs.legend(frameon=False, loc=(0.175,-0.3), ncol=4)
+
+
+
+
+kmid=32
+klast=63
+dpthInd=119+4*8
+
+style="Simple,tail_width=1,head_width=5,head_length=6"
+bg1 = dict(arrowstyle=style, color=matica97E)
+
+a2 = patches.FancyArrowPatch((VoN[dpthInd],BS0[dpthInd,kmid]+1+VoN[dpthInd]/2.0), (VoN[dpthInd],BS1[dpthInd,kmid]+VoN[dpthInd]/2.0), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg1)
+a3 = patches.FancyArrowPatch((VoN[dpthInd],BS1[dpthInd,kmid]-1+VoN[dpthInd]/2.0),(VoN[dpthInd],BS0[dpthInd,kmid]+VoN[dpthInd]/2.0), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg1)
+axbs.add_patch(a2)
+axbs.add_patch(a3)
+
+
+
+bg1 = dict(arrowstyle=style, color=matica97E)
+dpthInd=dpthInd-4
+a2 = patches.FancyArrowPatch((VoN[dpthInd],BS0[dpthInd,klast]+1+VoN[dpthInd]/2.0), (VoN[dpthInd],BS1[dpthInd,klast]+VoN[dpthInd]/2.0), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg1)
+a3 = patches.FancyArrowPatch((VoN[dpthInd],BS1[dpthInd,klast]-1+VoN[dpthInd]/2.0),(VoN[dpthInd],BS0[dpthInd,klast]+VoN[dpthInd]/2.0), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg1)
+axbs.add_patch(a2)
+axbs.add_patch(a3)
+
+
+
+
+
+
+bg2 = dict(arrowstyle=style, color=matica97F)
+
+a2 = patches.FancyArrowPatch((VoN[dpthInd],BS1[dpthInd,klast]+1+VoN[dpthInd]/2.0), (VoN[dpthInd],BS2[dpthInd,klast]+VoN[dpthInd]/2.0), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg2)
+a3 = patches.FancyArrowPatch((VoN[dpthInd],BS2[dpthInd,klast]-1+VoN[dpthInd]/2.0),(VoN[dpthInd],BS1[dpthInd,klast]+VoN[dpthInd]/2.0), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg2)
+axbs.add_patch(a2)
+axbs.add_patch(a3)
+
+dpthInd=dpthInd+4
+bg2 = dict(arrowstyle=style, color=matica97F)
+
+a2 = patches.FancyArrowPatch((VoN[dpthInd],BS1[dpthInd,kmid]+1+VoN[dpthInd]/2.0), (VoN[dpthInd],BS2[dpthInd,kmid]+VoN[dpthInd]/2.0), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg2)
+a3 = patches.FancyArrowPatch((VoN[dpthInd],BS2[dpthInd,kmid]-1+VoN[dpthInd]/2.0),(VoN[dpthInd],BS1[dpthInd,kmid]+VoN[dpthInd]/2.0), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg2)
+axbs.add_patch(a2)
+axbs.add_patch(a3)
+
+
+bg3 = dict(arrowstyle=style, color=matica97I)
+
+a2 = patches.FancyArrowPatch((VoN[dpthInd],BS2[dpthInd,kmid]+1+VoN[dpthInd]/2), (VoN[dpthInd],BS3[dpthInd,kmid]+VoN[dpthInd]/2), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg3)
+a3 = patches.FancyArrowPatch((VoN[dpthInd],BS3[dpthInd,kmid]-1+VoN[dpthInd]/2),(VoN[dpthInd],BS2[dpthInd,kmid]+VoN[dpthInd]/2), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg3)
+axbs.add_patch(a2)
+axbs.add_patch(a3)
+
+bg3 = dict(arrowstyle=style, color=matica97I)
+dpthInd=dpthInd-4
+a2 = patches.FancyArrowPatch((VoN[dpthInd],BS2[dpthInd,klast]+1+VoN[dpthInd]/2), (VoN[dpthInd],BS3[dpthInd,klast]+VoN[dpthInd]/2), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg3)
+a3 = patches.FancyArrowPatch((VoN[dpthInd],BS3[dpthInd,klast]-1+VoN[dpthInd]/2),(VoN[dpthInd],BS2[dpthInd,klast]+VoN[dpthInd]/2), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg3)
+axbs.add_patch(a2)
+axbs.add_patch(a3)
+
+bg3 = dict(arrowstyle=style, color=matica97G)
+
+a2 = patches.FancyArrowPatch((VoN[dpthInd],BS3[dpthInd,klast]+1+VoN[dpthInd]/2), (VoN[dpthInd],BS4[dpthInd,klast]+VoN[dpthInd]/2), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg3)
+a3 = patches.FancyArrowPatch((VoN[dpthInd],BS4[dpthInd,klast]-1+VoN[dpthInd]/2),(VoN[dpthInd],BS3[dpthInd,klast]+VoN[dpthInd]/2), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg3)
+axbs.add_patch(a2)
+axbs.add_patch(a3)
+
+bg3 = dict(arrowstyle=style, color=matica97G)
+
+dpthInd=dpthInd+4
+a2 = patches.FancyArrowPatch((VoN[dpthInd],BS3[dpthInd,kmid]+1+VoN[dpthInd]/2), (VoN[dpthInd],BS4[dpthInd,kmid]+VoN[dpthInd]/2), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg3)
+a3 = patches.FancyArrowPatch((VoN[dpthInd],BS4[dpthInd,kmid]-1+VoN[dpthInd]/2),(VoN[dpthInd],BS3[dpthInd,kmid]+VoN[dpthInd]/2), \
+                             connectionstyle="arc3,rad=0", \
+                             **bg3)
+axbs.add_patch(a2)
+axbs.add_patch(a3)
+
+plt.savefig('BSScaleV2.pdf')
+plt.show()
