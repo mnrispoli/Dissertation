@@ -20,9 +20,16 @@ DEBg = np.genfromtxt('data/BigScatterDaleyEst.csv', delimiter = ',')
     
 Data2d = np.genfromtxt('exp_data/Sc2DOut.csv', delimiter = ',')
 DataAx = np.genfromtxt('exp_data/ScAxOut.csv', delimiter = ',')
-            
-FX=6.5*2/3
-FY=FX/1.618
+
+DataExp = np.genfromtxt('exp_Data/TotalLossAxialV3.4.csv', delimiter=',')
+
+x=DataExp[::,0];
+y=DataExp[::,1];
+
+fitval=np.polyfit(x,np.log(y),1)
+
+FX=6.5*2/3*2
+FY=FX/1.618/1.5
 
 [XL,XH,YL,YH] = [0,0.25,0,4.0]
 [XW,YT]=[XH-XL,YH-YL]
@@ -30,6 +37,9 @@ FY=FX/1.618
 W=XW/2
 H=FY
 AR=XW/YT
+
+mksz=6
+lw=2
 
 fig = plt.figure(figsize=(FX, FY))
 
@@ -51,21 +61,23 @@ fig = plt.figure(figsize=(FX, FY))
 
 
 
-ax2 = fig.add_subplot(111, aspect='auto')
-ax2.loglog(WnAx[0,::],WnAx[1,::],'-', label = 'wn')
-ax2.loglog(HOAx[0,::],HOAx[1,::],'-', label = '\psi_HO')
+ax2 = fig.add_subplot(121, aspect='auto')
+ax2.loglog(WnAx[0,::],WnAx[1,::],'-',linewidth=lw, color=matica99A, label = 'wn')
+ax2.loglog(HOAx[0,::],HOAx[1,::],'-',linewidth=lw, color=matica99B, label = '\psi_HO')
 
 ax2.errorbar(DataAx[::,0],DataAx[::,1],yerr=DataAx[:,2], fmt='o',\
-             markersize=mksz, linewidth = lw, zorder = 1, label = 'Data')
-ax2.plot(DataAx[::,0],DataAx[::,1],'o', color='white', markersize=2, zorder = 5 )
+             markersize=mksz, linewidth = lw, label = 'Data',\
+             color = matica99I, zorder = 499)
+ax2.plot(DataAx[::,0],DataAx[::,1],'o', color='white', markersize=2, zorder = 500 )
 
 #ax2.loglog(DEAx[0,::],DEAx[1,::],'-')
 ax2.grid(True, which="both", ls="-")
-ax2.set_title('Axial Lattice')
-ax2.set_xlabel('Lattice Depth (Er)')
-ax2.set_ylabel('\Gamma_{sc}')
+#ax2.set_title('Axial Lattice')
+#ax2.set_xlabel('Lattice Depth (Er)')
+#ax2.set_ylabel('\Gamma_{sc}')
 ax2.set_ylim([1E-4,1E-1])
 ax2.set_xlim([1E-1,1E3])
+ax2.legend(frameon=False,loc=(0.8,-0.25), ncol=3)
 
 #ax3 = fig.add_subplot(133, aspect='auto')
 #ax3.loglog(WnBg[0,::],WnBg[1,::],'-', label = 'wn')
@@ -78,15 +90,24 @@ ax2.set_xlim([1E-1,1E3])
 #ax3.set_ylim([1E-4,1E-1])
 #ax3.set_xlim([1E1,1E5])
 
-plt.savefig('ScatteringRatesCal.pdf')
+ax3 = fig.add_subplot(122, aspect='auto')
+xx=np.linspace(0,DataExp[-1,0]+1,100)
+yy=np.exp(xx*fitval[0]+fitval[1])
+ax3.plot(xx,yy,'--',color=blendClr(matica99I,clrWhite,0.8),linewidth=2,zorder=-1)
 
-Er2D=1.240
-ErAx=0.255
-ErBg=0.007
+ax3.errorbar(DataExp[::,0],DataExp[::,1],yerr=DataExp[:,2], fmt='o',\
+             markersize=mksz, linewidth = lw, color=matica99I, \
+             zorder = 1, label = 'Data')
+ax3.plot(DataExp[::,0],DataExp[::,1],'o', color='white', markersize=2, zorder = 5 )
 
-latt2D1=8 #ind 48
-latt2D2=45 #ind 66
-AxOmega=7.9
-lattAx=(AxOmega/2/ErAx)**2 #ind 78
-BgOmega=2
-lattBg=(BgOmega/2/ErBg)**2
+#ax2.loglog(DEAx[0,::],DEAx[1,::],'-')
+ax3.grid(True, which="both", ls="-")
+#ax3.set_title('Axial Lattice Heating')
+#ax3.set_xlabel('Time')
+#ax3.set_ylabel('Atom Number')
+ax3.set_ylim([0,350])
+ax3.set_xlim([-0.5,13])
+
+
+
+plt.savefig('ScatteringRatesCalv2.pdf')

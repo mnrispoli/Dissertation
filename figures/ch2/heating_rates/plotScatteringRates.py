@@ -30,13 +30,14 @@ FY=FX/3#/1.618
 W=XW/2
 H=FY
 AR=XW/YT
+lws=2
 
 fig = plt.figure(figsize=(FX, FY))
 
 ax1 = fig.add_subplot(131, aspect='auto')
-ax1.loglog(Wn2D[0,::],Wn2D[1,::],'-', label = 'wn')
-ax1.loglog(HO2D[0,::],HO2D[1,::],'-', label = '\psi_HO')
-ax1.loglog(DE2D[0,::],DE2D[1,::],'-', label = 'Lamb Dicke Regime')
+ax1.loglog(Wn2D[0,::],Wn2D[1,::],'-', color=matica99A , linewidth=lws,label = 'W_n(x)')
+ax1.loglog(HO2D[0,::],HO2D[1,::],'-', color=matica99B,  linewidth=lws,label = '\psi_HO')
+ax1.loglog(DE2D[0,::],DE2D[1,::],'-', color=matica99C,  linewidth=lws,label = 'Lamb Dicke Regime')
 
 #ax1.errorbar(Data2d[::,0],Data2d[::,1],yerr=Data2d[:,2], fmt='o',\
 #             markersize=mksz, linewidth = lw, zorder = 1, label = 'Data')
@@ -48,12 +49,13 @@ ax1.set_xlabel('Lattice Depth (Er)')
 ax1.set_ylabel('\Gamma_{sc}')
 ax1.set_ylim([1E-4,1E-1])
 ax1.set_xlim([1E-1,1E3])
+ax1.legend(frameon=False,loc=(1.15,-0.25), ncol=3)
 
 
 
 ax2 = fig.add_subplot(132, aspect='auto')
-ax2.loglog(WnAx[0,::],WnAx[1,::],'-', label = 'wn')
-ax2.loglog(HOAx[0,::],HOAx[1,::],'-', label = '\psi_HO')
+ax2.loglog(WnAx[0,::],WnAx[1,::],'-', color=matica99A,linewidth=lws, label = 'wn')
+ax2.loglog(HOAx[0,::],HOAx[1,::],'-', color=matica99B,linewidth=lws, label = '\psi_HO')
 
 #ax2.errorbar(DataAx[::,0],DataAx[::,1],yerr=DataAx[:,2], fmt='o',\
 #             markersize=mksz, linewidth = lw, zorder = 1, label = 'Data')
@@ -68,8 +70,8 @@ ax2.set_ylim([1E-4,1E-1])
 ax2.set_xlim([1E-1,1E3])
 
 ax3 = fig.add_subplot(133, aspect='auto')
-ax3.loglog(WnBg[0,::],WnBg[1,::],'-', label = 'wn')
-ax3.loglog(HOBg[0,::],HOBg[1,::],'-', label = 'psi_HO')
+ax3.loglog(WnBg[0,::],WnBg[1,::],'-', color=matica99A,linewidth=lws, label = 'wn')
+ax3.loglog(HOBg[0,::],HOBg[1,::],'-', color=matica99B,linewidth=lws, label = 'psi_HO')
 #ax3.loglog(DEBg[0,::],DEBg[1,::],'-')
 ax3.grid(True, which="both", ls="-")
 ax3.set_title('Big Lattice')
@@ -78,7 +80,7 @@ ax3.set_ylabel('\Gamma_{sc}')
 ax3.set_ylim([1E-4,1E-1])
 ax3.set_xlim([1E1,1E5])
 
-plt.savefig('ScatteringRates.pdf')
+plt.savefig('ScatteringRatesv2.pdf')
 
 Er2D=1.240
 ErAx=0.255
